@@ -1,0 +1,161 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Search Bar */
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 600px;
+    font-size: 1rem;
+    background-color: #3b3b3b;
+    color: #ffffff;
+    border: 1px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+.search-bar input[type="text"]::placeholder {
+    color: #a0a0a0;
+}
+
+/* Filters Section */
+.filters {
+    background-color: #3a3a3c;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.filter-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filter-group label {
+    font-weight: bold;
+}
+
+#clear-filters {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear-filters:hover {
+    background-color: #e86c3a;
+}
+
+/* Table Styling */
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden; /* For rounded corners */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+}
+
+th {
+    background-color: #444;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td {
+    background-color: #3c3c3c;
+    color: #e0e0e0;
+}
+
+tr:nth-child(even) td {
+    background-color: #4c4c4c;
+}
+
+tr:hover td {
+    background-color: #555;
+}
+
+/* Link Styling for Plugin Names */
+td a {
+    text-decoration: none;
+    color: #1e90ff; /* Light blue color for readability */
+}
+
+td a:hover {
+    color: #00c8ff; /* Brighter blue on hover */
+    text-decoration: underline;
+}
+
+/* Collapsible Section */
+.collapsible {
+    margin-bottom: 20px;
+    background-color: #3a3a3c;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.collapsible-btn {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.collapsible-btn:hover {
+    background-color: #555;
+}
+
+.collapsible-content {
+    display: none;
+    padding-top: 10px;
+}
+
+.collapsible .active + .collapsible-content {
+    display: block;
+}
+
+/* Warning Styles */
+.warning {
+    background-color: #5a5a5c;
+    border-left: 5px solid #f39c12;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
