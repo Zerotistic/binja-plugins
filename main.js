@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
       
       // Get selected sources and categories
       const selectedSources = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
-        .filter(input => input.id === "c++" || input.id === "py")
+        .filter(input => input.id === "c++" || input.id === "python")
         .map(input => input.value.toLowerCase());
-  
+
       const selectedCategories = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
-        .filter(input => input.id !== "c++" && input.id !== "py")
+        .filter(input => input.id !== "c++" && input.id !== "python")
         .map(input => input.value.toLowerCase());
   
       const filteredData = tabledata.filter(plugin => {
