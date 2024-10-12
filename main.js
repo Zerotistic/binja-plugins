@@ -56,19 +56,41 @@ document.addEventListener('DOMContentLoaded', function () {
       renderTable(filteredData);
     }
   
-    const button = document.querySelector('.collapsible-btn');
-    const content = document.querySelector('.collapsible-content');
+    const infoBtn = document.getElementById('info-btn');
+    const limitBtn = document.getElementById('limit-btn');
+    const infoContent = document.getElementById('information-content');
+    const limitContent = document.getElementById('limitations-content');
+    const collapsibleContent = document.querySelector('.collapsible-content');
 
-    button.addEventListener('click', function () {
-        button.classList.toggle('active');
+    infoContent.style.display = "none";
+    limitContent.style.display = "none";
+    collapsibleContent.style.display = "none";
+    infoBtn.classList.remove('active');
+    limitBtn.classList.remove('active');
 
-        if (content.style.display === "block") {
-            content.style.display = "none";
-            button.innerHTML = 'Limitations &#9660;';  
-        } else {
-            content.style.display = "block";
-            button.innerHTML = 'Limitations &#9650;'; 
-        }
+    function toggleContent(button, content) {
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        collapsibleContent.style.display = "none";
+        button.classList.remove('active');
+      } else {
+        collapsibleContent.style.display = "block";
+        infoContent.style.display = "none";
+        limitContent.style.display = "none";
+        infoBtn.classList.remove('active');
+        limitBtn.classList.remove('active');
+
+        content.style.display = "block";
+        button.classList.add('active');
+      }
+    }
+
+    infoBtn.addEventListener('click', function () {
+      toggleContent(infoBtn, infoContent);
+    });
+
+    limitBtn.addEventListener('click', function () {
+      toggleContent(limitBtn, limitContent);
     });
 
     renderTable(tabledata);

@@ -3,32 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Binary Ninja Plugin List</title>
+  <title>Interactive Binja Plugin List</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Binary Ninja Plugin List</h1>
+    <h1>Interactive Binja Plugin List</h1>
     
-    <!-- Known Issues Section (Collapsible) -->
-    <div class="issues collapsible">
-      <button class="collapsible-btn">Limitations &#9660;</button>
-      <div class="collapsible-content">
-        <div class="warning">
-            <h3>C++/Rust Support</h3>
-            <p>Some features, such as support for C++/Rust plugins, are currently unavailable in the plugin manager due to unresolved issues. You'll have to manually install (and build) them. See issue <a href="https://github.com/Vector35/binaryninja-api/issues/2238" target="_blank">#2238</a> for more details.</p>
-        </div>
-        <div class="warning">
-            <h3>Supported Versions</h3>
-            <p>When building a Python plugin that installs a native plugin, please be aware of the following limitations:
-              <ul>
-                <li>No support for maximum version constraints (this may result in compatibility issues with dev builds).</li>
-                <li>Only basic version comparisons are supported (full semantic versioning is not yet implemented).</li>
-                <li>It's currently not possible to limit plugin compatibility to specific branches or version ranges.</li>
-              </ul>
-              These limitations are tracked in issue <a href="https://github.com/Vector35/community-plugins/issues/211" target="_blank">#211</a>.
-            </p>
-        </div>
+    <!-- Menu bar for toggling between Information and Limitations -->
+    <div class="menu-bar">
+      <button id="info-btn" class="menu-btn active">Information</button>
+      <button id="limit-btn" class="menu-btn">Limitations</button>
+    </div>
+
+    <!-- Collapsible Content -->
+    <div class="collapsible-content">
+      <!-- Information Content -->
+      <div id="information-content" class="content-section">
+        <h3>Category Information</h3>
+        <ul>
+          <li><strong>helper</strong> - Plugin that adds some base functionality to Binary Ninja. Most plugins will be of this type.</li>
+          <li><strong>ui</strong> - The plugin extends the UI in some way.</li>
+          <li><strong>architecture</strong> - The plugin adds an architecture (e.g. x86, ARM, MIPS).</li>
+          <li><strong>binaryview</strong> - The plugin adds a new BinaryView (e.g. PE, MachO, ELF).</li>
+          <li><strong>core</strong> - Plugin that extends the core's analysis. Your plugin probably isn't one of these.</li>
+          <li><strong>sync</strong> - A plugin that synchronizes data with an external tool.</li>
+        </ul>
+      </div>
+
+      <!-- Limitations Content -->
+      <div id="limitations-content" class="content-section">
+        <h3>C++/Rust Support</h3>
+        <p>Some features, such as support for C++/Rust plugins, are currently unavailable in the plugin manager due to unresolved issues. You'll have to manually install (and build) them. See issue <a href="https://github.com/Vector35/binaryninja-api/issues/2238" target="_blank">#2238</a> for more details.</p>
+        <h3>Supported Versions</h3>
+        <p>When building a Python plugin that installs a native plugin, please be aware of the following limitations:
+          <ul>
+            <li>No support for maximum version constraints (this may result in compatibility issues with dev builds).</li>
+            <li>Only basic version comparisons are supported (full semantic versioning is not yet implemented).</li>
+            <li>It's currently not possible to limit plugin compatibility to specific branches or version ranges.</li>
+          </ul>
+          These limitations are tracked in issue <a href="https://github.com/Vector35/community-plugins/issues/211" target="_blank">#211</a>.
+        </p>
       </div>
     </div>
 
@@ -43,19 +58,19 @@
       <div class="filter-group">
         <label>Source:</label>
         <input type="checkbox" id="c++" value="c++"> C++
-        <input type="checkbox" id="py" value="python"> Python
+        <input type="checkbox" id="python" value="python"> Python
         <button id="clear-filters">Clear Filters</button>
       </div>
       <div class="filter-group">
         <label>Categories:</label>
-        <input type="checkbox" id="collab" value="helper"> Helper
-        <input type="checkbox" id="debug" value="binaryview"> BinaryView
-        <input type="checkbox" id="decomp" value="architecture"> Architecture
-        <input type="checkbox" id="deobf" value="core"> Core
-        <input type="checkbox" id="dev" value="sync"> Sync
+        <input type="checkbox" id="helper" value="helper"> Helper
+        <input type="checkbox" id="binaryview" value="binaryview"> BinaryView
+        <input type="checkbox" id="architecture" value="architecture"> Architecture
+        <input type="checkbox" id="core" value="core"> Core
+        <input type="checkbox" id="sync" value="sync"> Sync
         <input type="checkbox" id="ui" value="ui"> UI
-        <input type="checkbox" id="ui" value="patch"> Patch
-        <input type="checkbox" id="ui" value="analysis"> Analysis
+        <input type="checkbox" id="patch" value="patch"> Patch
+        <input type="checkbox" id="analysis" value="analysis"> Analysis
       </div>
     </div>
 
