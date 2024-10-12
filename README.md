@@ -4,7 +4,12 @@
 
 This is a comprehensive list of plugins for Binary Ninja that is more interactive, that is, it can be sorted and filtered to help with finding plugins of interest. It also has extra metadata like the language the plugin is written in and an attempt at putting plugins into categories.
 
-[Go to the interactive list](http://zerotistic.github.io/).
+[Go to the interactive list](http://zerotistic.github.io/binja-plugins).
+
+## TODO
+[ ] Add plugins that aren't indexed in [community-plugins](https://github.com/vector35/community-plugins)
+[ ] Add proper tags
+[ ] Add stats at the top
 
 ## Contribute!
 
