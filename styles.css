@@ -238,3 +238,38 @@ a:hover {
     color: #ff6666;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .menu-bar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+  
+    .menu-btn {
+        width: 100%; /* Full width for buttons on mobile */
+        padding: 15px;
+    }
+  
+    .search-bar input[type="text"] {
+        width: 90%; /* Increase width for smaller screens */
+    }
+  
+    table {
+        font-size: 0.9rem; /* Slightly smaller font size for table on small screens */
+    }
+  
+    th, td {
+        padding: 10px 12px; /* Reduce padding for mobile */
+    }
+  
+    .filters {
+        flex-direction: column; /* Stack filters vertically on mobile */
+    }
+  
+    /* Stats container responsive */
+    .stats-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

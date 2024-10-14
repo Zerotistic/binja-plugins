@@ -7,9 +7,11 @@ This is a comprehensive list of plugins for Binary Ninja that is more interactiv
 [Go to the interactive list](http://zerotistic.github.io/binja-plugins).
 
 ## TODO
+
 [ ] Add plugins that aren't indexed in [community-plugins](https://github.com/vector35/community-plugins)
-[ ] Add proper tags
+[ ] Improve support on phone/tablet
 [ ] Add stats at the top
+[ ] Add proper tags
 
 ## Contribute!
 
