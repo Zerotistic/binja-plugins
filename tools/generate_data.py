@@ -1,7 +1,9 @@
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 import requests
 import re
 
+#url = "https://raw.githubusercontent.com/Vector35/official-plugins/refs/heads/master/README.md"
 url = "https://raw.githubusercontent.com/Vector35/community-plugins/refs/heads/master/README.md"
 response = requests.get(url)
 
@@ -15,6 +17,7 @@ pattern = r'\|(\[.*?\]\(.*?\))\|(\[.*?\]\(.*?\))\|(.*?)\|(\d{4}-\d{2}-\d{2})\|(.
 matches = re.findall(pattern, content)
 
 def fetch_language_from_github(url):
+    print(f"{url=}")
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -33,7 +36,7 @@ def escape_js_string(s):
     return s.replace('\\', '\\\\').replace('"', '\\"').replace("'", "\\'").replace("\n", "\\n")
 
 js_data = "var tabledata = [\n"
-for match in matches:
+for match in tqdm(matches):
     plugin_name_link = match[0]  # Plugin name with link
     author_link = match[1]  # Author name with link
     description = escape_js_string(match[2].strip())  # Description (escaped)
@@ -59,8 +62,7 @@ for match in matches:
 
 js_data += "];"
 
-
-with open("../src/data.js", "w") as file:
+with open("data2.js", "w") as file:
     file.write(js_data)
 
 print("Data has been successfully written to generated_data.js")

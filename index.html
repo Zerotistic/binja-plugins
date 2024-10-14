@@ -26,7 +26,7 @@
           <li><strong>ui</strong> - The plugin extends the UI in some way.</li>
           <li><strong>architecture</strong> - The plugin adds an architecture (e.g. x86, ARM, MIPS).</li>
           <li><strong>binaryview</strong> - The plugin adds a new BinaryView (e.g. PE, MachO, ELF).</li>
-          <li><strong>core</strong> - Plugin that extends the core's analysis. Your plugin probably isn't one of these.</li>
+          <li><strong>core</strong> - Plugin that extends the core's analysis.</li>
           <li><strong>sync</strong> - A plugin that synchronizes data with an external tool.</li>
         </ul>
       </div>
@@ -52,25 +52,34 @@
       <input type="text" id="search" placeholder="Search for plugins...">
     </div>
 
+    <!-- Stats container -->
+<div id="stats-container" class="stats-container"></div>
     <!-- Filter Section -->
     <div class="filters">
       <h2>Filters</h2>
+      <button id="clear-filters">Clear Filters</button>
+      <div class="filter-group">
+        <label>Origin:</label>
+        <input type="checkbox" class="origin-checkbox" id="community" value="community"> Community
+        <input type="checkbox" class="origin-checkbox" id="official" value="official"> Official
+      </div>
       <div class="filter-group">
         <label>Source:</label>
-        <input type="checkbox" id="c++" value="c++"> C++
-        <input type="checkbox" id="python" value="python"> Python
-        <button id="clear-filters">Clear Filters</button>
+        <input type="checkbox" class="source-checkbox" id="c" value="c"> C
+        <input type="checkbox" class="source-checkbox" id="c++" value="c++"> C++
+        <input type="checkbox" class="source-checkbox" id="python" value="python"> Python
+        <input type="checkbox" class="source-checkbox" id="rust" value="rust"> Rust
       </div>
       <div class="filter-group">
         <label>Categories:</label>
-        <input type="checkbox" id="helper" value="helper"> Helper
-        <input type="checkbox" id="binaryview" value="binaryview"> BinaryView
-        <input type="checkbox" id="architecture" value="architecture"> Architecture
-        <input type="checkbox" id="core" value="core"> Core
-        <input type="checkbox" id="sync" value="sync"> Sync
-        <input type="checkbox" id="ui" value="ui"> UI
-        <input type="checkbox" id="patch" value="patch"> Patch
-        <input type="checkbox" id="analysis" value="analysis"> Analysis
+        <input type="checkbox" class="category-checkbox" id="helper" value="helper"> Helper
+        <input type="checkbox" class="category-checkbox" id="binaryview" value="binaryview"> BinaryView
+        <input type="checkbox" class="category-checkbox" id="architecture" value="architecture"> Architecture
+        <input type="checkbox" class="category-checkbox" id="core" value="core"> Core
+        <input type="checkbox" class="category-checkbox" id="sync" value="sync"> Sync
+        <input type="checkbox" class="category-checkbox" id="ui" value="ui"> UI
+        <input type="checkbox" class="category-checkbox" id="patch" value="patch"> Patch
+        <input type="checkbox" class="category-checkbox" id="analysis" value="analysis"> Analysis
       </div>
     </div>
 

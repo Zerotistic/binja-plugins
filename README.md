@@ -8,10 +8,11 @@ This is a comprehensive list of plugins for Binary Ninja that is more interactiv
 
 ## TODO
 
-[ ] Add plugins that aren't indexed in [community-plugins](https://github.com/vector35/community-plugins)
-[ ] Improve support on phone/tablet
-[ ] Add stats at the top
-[ ] Add proper tags
+[X] Add plugins that aren't indexed in [community-plugins](https://github.com/vector35/community-plugins) 
+[X] Improve support on phone/tablet 
+[ ] Make better filter (allow for "not TAG" and combinaison)
+[X] Add stats at the top 
+[ ] Add proper tags 
 
 ## Contribute!
 
