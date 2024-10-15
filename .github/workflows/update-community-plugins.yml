@@ -1,0 +1,84 @@
+name: Update Community Plugin Data
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *'  # Run every 3 days
+  workflow_dispatch: 
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install axios
+
+    - name: Update data.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        node <<EOF
+        const fs = require('fs');
+        const axios = require('axios');
+        const path = require('path');
+
+        async function updateData() {
+            try {
+                let existingData = [];
+                const dataPath = path.join(process.cwd(), 'data.js');
+            if (fs.existsSync(dataPath)) {
+                const dataModule = require(dataPath);
+                existingData = dataModule.tabledata || [];
+            }
+
+            const response = await axios.get('https://raw.githubusercontent.com/Vector35/community-plugins/master/plugins.json');
+            const newPlugins = response.data;
+
+            for (const plugin of newPlugins) {
+                const existingIndex = existingData.findIndex(item => item.name === plugin.name);
+
+                const updatedPlugin = {
+                    name: plugin.name,
+                    url: plugin.projectUrl,
+                    author: plugin.author,
+                    author_url: plugin.authorUrl,
+                    desc: plugin.description,
+                    last: new Date(plugin.lastUpdated * 1000).toISOString().split('T')[0],
+                    tags: plugin.type || [],
+                    src: plugin.api || [],
+                    origin: "community"
+                };
+
+                if (existingIndex !== -1) {
+                    existingData[existingIndex] = updatedPlugin;
+                } else {
+                    existingData.push(updatedPlugin);
+                }
+            }
+
+            const jsContent = `var tabledata = ${JSON.stringify(existingData, null, 2)};\n\nmodule.exports = { tabledata };`;
+            fs.writeFileSync(dataPath, jsContent);
+
+            console.log('data.js updated successfully');
+            } catch (error) {
+            console.error('Error updating data.js:', error);
+            process.exit(1);
+            }
+        }
+
+        updateData();
+        EOF
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add data.js
+        git diff --quiet && git diff --staged --quiet || (git commit -m "update(community): data.js" && git push)

@@ -162,5 +162,3 @@ var tabledata = [
 {name: "Protobuf Finder", url: "https://github.com/Accenture/protobuf-finder/", author: "Accenture (Michal Bambuch)", author_url: "https://github.com/Accenture/", desc: "Plugin for reconstructing original .proto files from binary.", last: "20220727", tags: ["helper"], src: "python", origin: "community"},
 {name: "McNinja", url: "https://github.com/ElykDeer/McNinja", author: "ElykDeer", author_url: "https://github.com/ElykDeer/", desc: "Compiles BinaryNinja's MLIL to LLVM", last: "20220121", tags: ["helper"], src: "python", origin: "community"},
 ];
-// format: 
-// {name: "", url: "", author: "", author_url: "", desc: "", last: "", tags: [""], src: "", origin: "community"},
