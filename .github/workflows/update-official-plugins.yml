@@ -24,7 +24,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        node <<EOF
+        cat << 'EOF' | node
         const fs = require('fs');
         const axios = require('axios');
         const path = require('path');
