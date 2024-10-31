@@ -1,163 +1,197 @@
 var tabledata = [
-{name: "0CD", url: "https://github.com/0xb0bb/0CD", author: "b0bb", author_url: "https://github.com/0xb0bb", desc: "Quality of life utilities for obsessive compulsive CTF enthusiasts.", last: "20220217", tags: ["helper"], src: "python", origin: "community"},
-{name: "Add GoReSym Info", url: "https://github.com/xusheng6/binja-GoReSym", author: "Xusheng", author_url: "https://github.com/xusheng6", desc: "Add information recovered by tool GoReSym into the binary view", last: "20240718", tags: ["helper"], src: "python", origin: "community"},
-{name: "Add XFG Xref", url: "https://github.com/xusheng6/add-xfg-xref", author: "Xusheng", author_url: "https://github.com/xusheng6", desc: "Add xref from caller to callee based on XFG hashes", last: "20230611", tags: ["helper"], src: "python", origin: "community"},
-{name: "AMD-SP/PSP Loader", url: "https://github.com/dayzerosec/AMD-SP-Loader", author: "dayzerosec", author_url: "https://github.com/dayzerosec", desc: "Loader for AMD-SP or PSP firmware binaries.", last: "20230129", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "Annotate Functions", url: "https://github.com/bkerler/annotate", author: "B.Kerler with code from John Levy and @carstein", author_url: "https://github.com/bkerler", desc: "A plugin that annotates function arguments.", last: "20190709", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "Ariadne", url: "https://github.com/seeinglogic/ariadne", author: "Mark Griffin (@seeinglogic)", author_url: "https://github.com/seeinglogic", desc: "Browser-based interactive graph for viewing callgraph, static analysis, and coverage information", last: "20230524", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Auto Utils", url: "https://github.com/404d/autoutils", author: "404\'d", author_url: "https://github.com/404d", desc: "Various auto analysis utilities", last: "20201212", tags: ["helper"], src: "python", origin: "community"},
-{name: "Banjo", url: "https://github.com/ivision-research/banjo", author: "Austin Ralls", author_url: "https://github.com/ivision-research", desc: "Adds support for Android Dex files", last: "20240426", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "BD Viewer", url: "https://github.com/PistonMiner/binaryninja-bindiff-viewer", author: "Linus S. (aka PistonMiner)", author_url: "https://github.com/PistonMiner", desc: "View BinDiff results and port symbols", last: "20220726", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Binary Ninja Ollama", url: "https://github.com/ahaggard2013/binaryninja-ollama", author: "Austin Haggard", author_url: "https://github.com/ahaggard2013", desc: "Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI", last: "20240716", tags: ["architecture", "binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "Binary Ninja Type Manager", url: "https://github.com/Ayrx/binja-typemanager", author: "Terry Chia", author_url: "https://github.com/Ayrx", desc: "Manage custom type libraries.", last: "20210130", tags: ["helper"], src: "python", origin: "community"},
-{name: "BinAssist", url: "https://github.com/jtang613/BinAssist", author: "Jason Tang", author_url: "https://github.com/jtang613", desc: "A plugin that provides LLM helpers to explain code and assist in RE.", last: "20240929", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Binja IPython console", url: "https://github.com/skr0x1c0/ipybinja", author: "skr0x1c0", author_url: "https://github.com/skr0x1c0", desc: "IPython console widget for Binary Ninja", last: "20221212", tags: ["binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "binja-doc-lookup", url: "https://github.com/riskydissonance/binja-doc-lookup", author: "riskydissonance", author_url: "https://github.com/riskydissonance", desc: "Lookup documentation for the selected token", last: "20240620", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "binja-win-docs", url: "https://github.com/matteyeux/binja-win-docs", author: "matteyeux", author_url: "https://github.com/matteyeux", desc: "Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.", last: "20240411", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "binja_sigmaker", url: "https://github.com/apekros/binja_sigmaker", author: "apekros and Alex3434", author_url: "https://github.com/apekros", desc: "Generate and find signatures.", last: "20230129", tags: ["architecture", "binaryview", "core", "ui"], src: "python", origin: "community"},
-{name: "BinjaExportTox64dbg", url: "https://github.com/moval0x1/BinjaExportTox64dbg", author: "moval0x1", author_url: "https://github.com/moval0x1", desc: "Export notations from Binja to x64dbg", last: "20240220", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "BinSync", url: "https://github.com/binsync/binsync", author: "BinSync Team", author_url: "https://github.com/binsync", desc: "Adds support for cross-decompiler collab in the BinSync supported decompilers.", last: "20240929", tags: ["sync"], src: "python", origin: "community"},
-{name: "Blackfin Architecture Plugin", url: "https://github.com/0bs3n/arch-blackfin", author: "sen", author_url: "https://github.com/0bs3n", desc: "A Binary Ninja architecture plugin for the AD Blackfin architecture", last: "20220528", tags: ["architecture"], src: "c++", origin: "community"},
-{name: "BN KConfig Recover", url: "https://github.com/zznop/bn-kconfig-recover", author: "Brandon Miller", author_url: "https://github.com/zznop", desc: "Recover Linux kernel build configurations", last: "20220114", tags: ["helper"], src: "python", origin: "community"},
-{name: "bn-riscv", url: "https://github.com/uni-due-syssec/bn-riscv", author: "Katharina Utz", author_url: "https://github.com/uni-due-syssec", desc: "RISC-V architecture plugin.", last: "20210118", tags: ["architecture"], src: "python", origin: "community"},
-{name: "bn-uefi-helper", url: "https://github.com/zznop/bn-uefi-helper", author: "Brandon Miller (zznop)", author_url: "https://github.com/zznop", desc: "Helper plugin for analyzing UEFI firmware", last: "20230428", tags: ["helper"], src: "c", origin: "community"},
-{name: "bncov", url: "https://github.com/ForAllSecure/bncov", author: "Mark Griffin", author_url: "https://github.com/ForAllSecure", desc: "Scriptable code coverage analysis and visualization plugin", last: "20230215", tags: ["helper"], src: "python", origin: "community"},
-{name: "BNHook", url: "https://github.com/jeffli678/bnhook", author: "Grant Orndorff", author_url: "https://github.com/jeffli678", desc: "Insert custom hooks", last: "20210329", tags: ["core", "ui"], src: "python", origin: "community"},
-{name: "bnida", url: "https://github.com/zznop/bnida", author: "zznop", author_url: "https://github.com/zznop", desc: "Transfer analysis data between Binary Ninja and IDA", last: "20240215", tags: ["sync"], src: "python", origin: "community"},
-{name: "BNIL Instruction Graph", url: "https://github.com/withzombies/bnil-graph", author: "Ryan Stortz (@withzombies)", author_url: "https://github.com/withzombies", desc: "A plugin to graph BNIL instruction trees", last: "20230719", tags: ["ui"], src: "python", origin: "community"},
-{name: "Call Shellcode", url: "https://github.com/lwerdna/call_shellcode", author: "lwerdna", author_url: "https://github.com/lwerdna", desc: "Add \"call shellcode\" menu option which executes highlighted bytes.", last: "20210403", tags: ["helper"], src: "python", origin: "community"},
-{name: "Callgraph", url: "https://github.com/psifertex/callgraph", author: "Josh Watson / Jordan Wiens", author_url: "https://github.com/psifertex", desc: "Callgraph generator for called or calling funcs", last: "20220420", tags: ["ui"], src: "python", origin: "community"},
-{name: "Calltree", url: "https://github.com/elbiazo/calltree", author: "Eric Biazo", author_url: "https://github.com/elbiazo", desc: "Generates calltree. Alternative view for callgraph", last: "20240904", tags: ["binaryview", "helper", "ui"], src: "python", origin: "community"},
-{name: "Char Arrays", url: "https://github.com/elbee-cyber/analyze_char_arrays", author: "elbee", author_url: "https://github.com/elbee-cyber", desc: "Displays char arrays by analyzing their use in functions", last: "20230118", tags: ["binaryview", "helper"], src: "python", origin: "community"},
-{name: "ClassyPP", url: "https://github.com/CySHell/ClassyPP", author: "CyShell", author_url: "https://github.com/CySHell", desc: "Parse and extract class information from MSVC x86 32\\64 bit C++ binaries.", last: "20230606", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "Clean Tricks", url: "https://github.com/janbbeck/CleanTricks", author: "Jan Beck", author_url: "https://github.com/janbbeck", desc: "This plugin removes some simple known obfuscation techniques to cut down on the tedium.", last: "20200608", tags: ["architecture", "binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "Comments Viewer", url: "https://github.com/matteyeux/comments-viewer", author: "matteyeux", author_url: "https://github.com/matteyeux", desc: "Binary Ninja comments viewer", last: "20220527", tags: ["ui"], src: "python", origin: "community"},
-{name: "CommentsAndSymbols", url: "https://github.com/moval0x1/CommentsAndSymbols", author: "moval0x1", author_url: "https://github.com/moval0x1", desc: "Show comments and symbols renamed during the analysis process.", last: "20240220", tags: ["binaryview", "ui"], src: "python", origin: "community"},
-{name: "CoolSigMaker", url: "https://github.com/unknowntrojan/binja_coolsigmaker", author: "unknowntrojan", author_url: "https://github.com/unknowntrojan", desc: "SigMaker style plugin", last: "20241001", tags: ["helper"], src: "rust", origin: "community"},
-{name: "cryptoscan", url: "https://github.com/Rami114/cryptoscan", author: "Ben Pottier", author_url: "https://github.com/Rami114", desc: "A plugin to detect several common crypto constructs and magic vars.", last: "20230922", tags: ["binaryview", "ui"], src: "python", origin: "community"},
-{name: "ctypes Export", url: "https://github.com/jordan9001/ctypes_export", author: "Jordan Whitehead", author_url: "https://github.com/jordan9001", desc: "Export types definitions as ctypes structures", last: "20240624", tags: ["helper"], src: "python", origin: "community"},
-{name: "DBG Loader", url: "https://github.com/gamozolabs/coff_nm", author: "Gamozo Labs, LLC", author_url: "https://github.com/gamozolabs", desc: "Load old COFF .dbg files as well as CAB-ed .db_ files!", last: "20211115", tags: ["helper"], src: "rust", origin: "community"},
-{name: "decomp2dbg", url: "https://github.com/mahaloz/decomp2dbg", author: "Zion Basque (@mahaloz)", author_url: "https://github.com/mahaloz", desc: "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB", last: "20240908", tags: ["core"], src: "python", origin: "community"},
-{name: "DeGObfuscate", url: "https://github.com/kryptoslogic/binja_degobfuscate", author: "Jamie Hankins", author_url: "https://github.com/kryptoslogic", desc: "De-obfuscates strings inside of obfuscated Go binaries", last: "20201202", tags: ["helper"], src: "python", origin: "community"},
-{name: "Delphi Mapper", url: "https://github.com/CTM1/BinjaDelphiMapper", author: "Claudio Teixeira", author_url: "https://github.com/CTM1", desc: "A plugin that renames Delphi functions according to a .map file produced by IDR.", last: "20240111", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "Delphi VMT Analyzer", url: "https://github.com/ImNotAVirus/delphi_ninja", author: "ImNotAVirus", author_url: "https://github.com/ImNotAVirus", desc: "Find Delphi VMTs and generate their structures", last: "20220221", tags: ["helper"], src: "python", origin: "community"},
-{name: "Dependency analyzer", url: "https://github.com/shizmob/binja-depanalyzer", author: "Shiz", author_url: "https://github.com/shizmob", desc: "Analyze dependencies and resolve obfuscated imports", last: "20200525", tags: ["helper"], src: "python", origin: "community"},
-{name: "devi", url: "https://github.com/murx-/devi_binja", author: "@_murks", author_url: "https://github.com/murx-", desc: "devi - DEvirtualize VIrtual calls in C++ binaries", last: "20201104", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "dewolf Decompiler", url: "https://github.com/fkie-cad/dewolf", author: "fkie-cad", author_url: "https://github.com/fkie-cad", desc: "Research Decompiler to generate a C-like function representation", last: "20241001", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Discord Integration", url: "https://github.com/psifertex/discordpresence", author: "psifertex", author_url: "https://github.com/psifertex", desc: "Enables Discord Rich Presence Integration for Binary Ninja", last: "20240109", tags: ["helper"], src: "python", origin: "community"},
-{name: "Dixie", url: "https://github.com/3Flatline/DixieBinjaPlugin", author: "3Flatline LLC", author_url: "https://github.com/3Flatline", desc: "Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation", last: "20240402", tags: ["ui"], src: "python", origin: "community"},
-{name: "droog", url: "https://github.com/amtal/droog", author: "amtal", author_url: "https://github.com/amtal", desc: "PDF Reference Opcodes Or reGisters. Like IDA\'s FRIEND/AMIE or Ghidra\'s \"Processor Manual...\" right-click menu.", last: "20240624", tags: ["helper"], src: "python", origin: "community"},
-{name: "DUMB", url: "https://github.com/toolCHAINZ/DUMB", author: "toolCHAINZ", author_url: "https://github.com/toolCHAINZ", desc: "DUMB: An Example Architecture for Binary Ninja", last: "20200301", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "Dyld Shared Cache Processor", url: "https://github.com/0cyn/bn-dyldsharedcache", author: "cynder (kat)", author_url: "https://github.com/0cyn", desc: "Processing for Apple\'s dyld_shared_cache format.", last: "20220301", tags: ["architecture", "binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "EFI Inspector", url: "https://github.com/zznop/efi-inspector", author: "Brandon Miller", author_url: "https://github.com/zznop", desc: "Binary Ninja plugin for inspecting UEFI firmware images", last: "20240228", tags: ["helper"], src: "python", origin: "community"},
-{name: "Emotet API+string deobfuscator", url: "https://github.com/mauronz/binja-emotet", author: "Francesco Muroni", author_url: "https://github.com/mauronz", desc: "Deobufscate API calls and strings in unpacked Emotet samples.", last: "20200921", tags: ["helper"], src: "python", origin: "community"},
-{name: "ethersplay Ethereum Architecture Plugin", url: "https://github.com/crytic/ethersplay", author: "Trail of Bits", author_url: "https://github.com/crytic", desc: "A disassembler and lifter for the Ethereum architecture.", last: "20221103", tags: ["architecture"], src: "python", origin: "community"},
-{name: "Explain Instruction", url: "https://github.com/ehennenfent/binja_explain_instruction", author: "Eric Hennenfent", author_url: "https://github.com/ehennenfent", desc: "Displays a window that explains in simple English what an assembly instruction does", last: "20211010", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Fix stomped imports", url: "https://github.com/nettitude/binja-fix-stomped-imports", author: "LRQA Nettitude", author_url: "https://github.com/nettitude", desc: "Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.", last: "20240919", tags: ["architecture", "binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "Format String Analysis", url: "https://github.com/nshp/binaryninja-printf", author: "Nick Shipp", author_url: "https://github.com/nshp", desc: "Script to automatically annotate variadic printf functions", last: "20230308", tags: ["helper"], src: "python", origin: "community"},
-{name: "Format String Finder", url: "https://github.com/Vasco-jofra/format-string-finder-binja", author: "jofra", author_url: "https://github.com/Vasco-jofra", desc: "Finds format string vulnerabilities", last: "20190715", tags: ["helper"], src: "python", origin: "community"},
-{name: "Frida", url: "https://github.com/chame1eon/binaryninja-frida", author: "Chame1eon", author_url: "https://github.com/chame1eon", desc: "A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.", last: "20200601", tags: ["helper"], src: "python", origin: "community"},
-{name: "Frinja", url: "https://github.com/dzervas/frinja", author: "Dimitris Zervas", author_url: "https://github.com/dzervas", desc: "Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r", last: "20240410", tags: ["helper"], src: "python", origin: "community"},
-{name: "Function ABI", url: "https://github.com/whitequark/binja_function_abi", author: "whitequark", author_url: "https://github.com/whitequark", desc: "A plugin that adds a GUI for changing function ABI.", last: "20191122", tags: ["ui"], src: "python", origin: "community"},
-{name: "Fuzzable", url: "https://github.com/ex0dus-0x/fuzzable", author: "ex0dus-0x", author_url: "https://github.com/ex0dus-0x", desc: "Framework for Automating Fuzzable Target Discovery with Static Analysis", last: "20231122", tags: ["ui"], src: "python", origin: "community"},
-{name: "Game Boy Loader and Architecture Plugin", url: "https://github.com/icecr4ck/bnGB", author: "Hugo Porcher (@icecr4ck)", author_url: "https://github.com/icecr4ck", desc: "A loader and diassembler for Game Boy ROMs.", last: "20201117", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "Game ROM Loader", url: "https://github.com/redthing1/binja_gameroms_plugin", author: "redthing1", author_url: "https://github.com/redthing1", desc: "Game ROM Loader for Binary Ninja", last: "20240904", tags: ["architecture", "binaryview", "core", "ui"], src: "python", origin: "community"},
-{name: "GameCube DOL", url: "https://github.com/PistonMiner/binaryninja-gc-dol", author: "Linus S. (aka PistonMiner)", author_url: "https://github.com/PistonMiner", desc: "GameCube DOL file BinaryView", last: "20210708", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "GameCube symbol map loader", url: "https://github.com/PistonMiner/binaryninja-gc-load-map", author: "Linus S. (aka PistonMiner)", author_url: "https://github.com/PistonMiner", desc: "GameCube symbol map loader", last: "20210708", tags: ["helper"], src: "python", origin: "community"},
-{name: "GEF-Binja", url: "https://github.com/hugsy/gef-binja", author: "hugsy", author_url: "https://github.com/hugsy", desc: "Interface Binary Ninja with GDB-GEF easily.", last: "20200518", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "genesis", url: "https://github.com/zznop/bn-genesis", author: "zznop", author_url: "https://github.com/zznop", desc: "SEGA Megadrive/Genesis ROM Hacking Toolkit", last: "20190723", tags: ["patch"], src: "python", origin: "community"},
-{name: "Ghinja", url: "https://github.com/Martyx00/ghinja", author: "Martin Petran", author_url: "https://github.com/Martyx00", desc: "Plugin to embed Ghidra Decompiler into Binary Ninja", last: "20220608", tags: ["ui"], src: "python", origin: "community"},
-{name: "Go Calling Convention", url: "https://github.com/PistonMiner/binaryninja-go-callconv", author: "Linus S. (aka PistonMiner)", author_url: "https://github.com/PistonMiner", desc: "Adds the \"gocall\" calling convention", last: "20231214", tags: ["helper"], src: "python", origin: "community"},
-{name: "GO Loader Assist", url: "https://github.com/f0rki/bn-goloader", author: "Michael Rodler", author_url: "https://github.com/f0rki", desc: "Short script that parses go symbol table and renames/creates functions.", last: "20210202", tags: ["ui"], src: "python", origin: "community"},
-{name: "GoLang binary parser", url: "https://github.com/dipusone/golang_pclntab_parser", author: "Jacopo Ferrigno", author_url: "https://github.com/dipusone", desc: "BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information", last: "20230105", tags: ["ui"], src: "python", origin: "community"},
-{name: "Golang Symbol Restore", url: "https://github.com/d-we/binja-golang-symbol-restore", author: "Daniel Weber", author_url: "https://github.com/d-we", desc: "Binary Ninja plugin for restoring function names from stripped Golang binaries", last: "20201019", tags: ["helper"], src: "python", origin: "community"},
-{name: "Golang Symbol Restore 1.18+", url: "https://github.com/scmerrill/golang_1_18_restore_names", author: "Spencer Merrill", author_url: "https://github.com/scmerrill", desc: "Binary Ninja plugin for restoring function names from stripped Golang binaries", last: "20220908", tags: ["helper"], src: "python", origin: "community"},
-{name: "HashDB", url: "https://github.com/cxiao/hashdb_bn", author: "Cindy Xiao", author_url: "https://github.com/cxiao", desc: "Plugin for interacting with the OALabs HashDB service.", last: "20230408", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Hex Integers in Python Console", url: "https://github.com/CouleeApps/hex_integers", author: "Glenn Smith", author_url: "https://github.com/CouleeApps", desc: "Makes your integers print as hex in the python console.", last: "20231101", tags: ["helper"], src: "python", origin: "community"},
-{name: "hexfiles", url: "https://github.com/toolCHAINZ/hexfiles", author: "toolCHAINZ", author_url: "https://github.com/toolCHAINZ", desc: "A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.", last: "20240409", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "HLIL Dump", url: "https://github.com/atxsinn3r/BinjaHLILDump", author: "atxsinn3r", author_url: "https://github.com/atxsinn3r", desc: "Dumps HLIL code to a directory", last: "20200607", tags: ["helper"], src: "python", origin: "community"},
-{name: "Hyara", url: "https://github.com/hyuunnn/Hyara", author: "Hyun Yi", author_url: "https://github.com/hyuunnn", desc: "YARA rule making tool for Binary Ninja, Cutter, and IDA", last: "20231113", tags: ["ui"], src: "python", origin: "community"},
-{name: "iBoot64 Loader", url: "https://github.com/BlackwingHQ/iBoot64Binja", author: "Blackwing Intelligence", author_url: "https://github.com/BlackwingHQ", desc: "Binary View for loading iBoot, SecureROM, etc. firmware", last: "20201001", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "iBootLoader", url: "https://github.com/EliseZeroTwo/iBoot-Binja-Loader", author: "EliseZeroTwo", author_url: "https://github.com/EliseZeroTwo", desc: "iBoot/SecureROM Loader", last: "20230224", tags: ["binaryview", "helper"], src: "python", origin: "community"},
-{name: "IDC Importer", url: "https://github.com/Cryptogenic/idc_importer", author: "SpecterDev", author_url: "https://github.com/Cryptogenic", desc: "Allows users to import idc database dumps from IDA into Binary Ninja.", last: "20221013", tags: ["helper"], src: "python", origin: "community"},
-{name: "IFL", url: "https://github.com/leandrofroes/bn_ifl", author: "Leandro Froes", author_url: "https://github.com/leandrofroes", desc: "A small plugin that provides an user-friendly way to navigate between functions and their references.", last: "20240709", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "ilhierarchy", url: "https://github.com/fabianfreyer/binja-il-hierarchy", author: "Fabian Freyer", author_url: "https://github.com/fabianfreyer", desc: "Show current IL instruction hierarchy in sidebar", last: "20220206", tags: ["core", "ui"], src: "python", origin: "community"},
-{name: "Improved Gameboy Architecture", url: "https://github.com/samrussell/binja-gameboy", author: "Sam Russell (@samrussell)", author_url: "https://github.com/samrussell", desc: "A loader and diassembler for Game Boy ROMs.", last: "20240328", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "Instruction Slicer", url: "https://github.com/c3r34lk1ll3r/Instruction_Slicer", author: "Andrea Ferraris", author_url: "https://github.com/c3r34lk1ll3r", desc: "Forward and backward instruction slicer", last: "20201125", tags: ["helper"], src: "python", origin: "community"},
-{name: "Intel 8086 Architecture", url: "https://github.com/whitequark/binja-i8086", author: "whitequark", author_url: "https://github.com/whitequark", desc: "A plugin providing the 16-bit Intel architecture.", last: "20190904", tags: ["arch"], src: "python", origin: "community"},
-{name: "Itanium C++ ABI", url: "https://github.com/whitequark/binja_itanium_cxx_abi", author: "whitequark", author_url: "https://github.com/whitequark", desc: "A plugin providing an analysis for Itanium C++ ABI.", last: "20230301", tags: ["analysis"], src: "python", origin: "community"},
-{name: "JMPscare", url: "https://github.com/fgsect/JMPscare-binja", author: "Lukas Seidel", author_url: "https://github.com/fgsect", desc: "Fuzzing Introspection for use with the JMPscare Toolkit.", last: "20221207", tags: ["binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "JNIAnalyzer", url: "https://github.com/Ayrx/binja-JNIAnalyzer", author: "Terry Chia (Ayrx)", author_url: "https://github.com/Ayrx", desc: "Analysis scripts for Binary Ninja to work with Android NDK libraries.", last: "20220327", tags: ["helper"], src: "python", origin: "community"},
-{name: "Jump table branch editor", url: "https://github.com/Vasco-jofra/jump-table-branch-editor", author: "jofra", author_url: "https://github.com/Vasco-jofra", desc: "A plugin that eases fixing jump table branches", last: "20190706", tags: ["core", "ui"], src: "python", origin: "community"},
-{name: "kallsyms", url: "https://github.com/zznop/bn-kallsyms", author: "Brandon Miller", author_url: "https://github.com/zznop", desc: "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database", last: "20220130", tags: ["helper"], src: "python", origin: "community"},
-{name: "keypatch", url: "https://github.com/lwerdna/keypatch_binja", author: "lwerdna", author_url: "https://github.com/lwerdna", desc: "Remake of keypatch plugin for Binary Ninja", last: "20240125", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Lighthouse", url: "https://github.com/gaasedelen/lighthouse", author: "Markus Gaasedelen", author_url: "https://github.com/gaasedelen", desc: "A Coverage Explorer for Reverse Engineers", last: "20240205", tags: ["helper"], src: "python", origin: "community"},
-{name: "logrn", url: "https://github.com/sum-catnip/logrn", author: "catnip", author_url: "https://github.com/sum-catnip", desc: "binary ninja plugin for abusing logging functions", last: "20210309", tags: ["helper"], src: "python", origin: "community"},
-{name: "MobiCore Loader Format", url: "https://github.com/v-rzh/mclf-binja-loader", author: "vrzh", author_url: "https://github.com/v-rzh", desc: "Loader for MobiCore trustlets and secure drivers.", last: "20240719", tags: ["binaryview", "helper"], src: "python", origin: "community"},
-{name: "Motorola 68k Architecture Plugin", url: "https://github.com/galenbwill/binaryninja-m68k", author: "Galen Williamson", author_url: "https://github.com/galenbwill", desc: "A disassembler and lifter for the Motorola 68k architecture.", last: "20220610", tags: ["architecture"], src: "python", origin: "community"},
-{name: "msp430 Architecture", url: "https://github.com/joshwatson/binaryninja-msp430", author: "Josh Watson", author_url: "https://github.com/joshwatson", desc: "MSP430 Architecture Plugin for Binary Ninja", last: "20220202", tags: ["architecture"], src: "python", origin: "community"},
-{name: "MSVC", url: "https://github.com/0x1F9F1/binja-msvc", author: "Brick", author_url: "https://github.com/0x1F9F1", desc: "Parses MSVC structures to improve analysis", last: "20190712", tags: ["helper"], src: "python", origin: "community"},
-{name: "Nampa", url: "https://github.com/thebabush/nampa", author: "Paolo Montesel (https://github.com/thebabush)", author_url: "https://github.com/thebabush", desc: "FLIRT for (binary) ninjas", last: "20200527", tags: ["binaryview", "core"], src: "python", origin: "community"},
-{name: "Native SigScan", url: "https://github.com/rikodot/binja_native_sigscan_loader", author: "rikodot", author_url: "https://github.com/rikodot", desc: "Find and create signatures", last: "20240813", tags: ["helper"], src: "python", origin: "community"},
-{name: "Notepad", url: "https://github.com/jonpalmisc/bn-notepad", author: "Jon Palmisciano", author_url: "https://github.com/jonpalmisc", desc: "A notepad for taking notes inside Binary Ninja.", last: "20210419", tags: ["helper"], src: "python", origin: "community"},
-{name: "Obfuscation Detection", url: "https://github.com/mrphrazer/obfuscation_detection", author: "Tim Blazytko", author_url: "https://github.com/mrphrazer", desc: "Automatically detect obfuscated code and other interesting code constructs", last: "20240429", tags: ["helper"], src: "python", origin: "community"},
-{name: "Opaque Predicates Detective", url: "https://github.com/yellowbyte/opaque-predicates-detective", author: "Yu-Jye Tung", author_url: "https://github.com/yellowbyte", desc: "detect opaque predicates", last: "20210410", tags: ["helper"], src: "python", origin: "community"},
-{name: "OpenAI GPT3", url: "https://github.com/WhatTheFuzz/binaryninja-openai", author: "Sean Deaton (@WhatTheFuzz)", author_url: "https://github.com/WhatTheFuzz", desc: "Queries OpenAI\'s GPT3 to determine what a given function does.", last: "20240417", tags: ["helper"], src: "python", origin: "community"},
-{name: "Original Xbox Executable Loader", url: "https://github.com/xclusivor/binaryninja-xbe", author: "xclusivor", author_url: "https://github.com/xclusivor", desc: "Loader for Original Xbox Executables", last: "20231113", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "pd-ninja", url: "https://github.com/lockbox/pd-ninja", author: "lockbox", author_url: "https://github.com/lockbox", desc: "Playdate Console RE utilities", last: "20230301", tags: ["helper"], src: "python", origin: "community"},
-{name: "peutils", url: "https://github.com/404d/peutils", author: "404\'d", author_url: "https://github.com/404d", desc: "Binary Ninja plugin providing various niche utilities for working with PE binaries", last: "20201212", tags: ["helper"], src: "python", origin: "community"},
-{name: "PowerPC VLE Extension", url: "https://github.com/Martyx00/PowerPC-VLE-Extension", author: "Martin Petran", author_url: "https://github.com/Martyx00", desc: "PowerPC VLE support via architecture extension.", last: "20241001", tags: ["architecture"], src: "c++", origin: "community"},
-{name: "Pseudo C Dump", url: "https://github.com/AsherDLL/PCDump-bn", author: "Asher Davila L.", author_url: "https://github.com/AsherDLL", desc: "Binary Ninja plugin to dump the Pseudo C generated by Binja into a folder.", last: "20230128", tags: ["helper"], src: "python", origin: "community"},
-{name: "PSVitaLoader", url: "https://github.com/computerman00/BinaryNinja-PSVitaLoader", author: "computerman00", author_url: "https://github.com/computerman00", desc: "PS Vita ELF/PRX2 loader plugin", last: "20240919", tags: ["helper"], src: "python", origin: "community"},
-{name: "Python bytecode", url: "https://github.com/Njord0/BNPyc", author: "Njörd", author_url: "https://github.com/Njord0", desc: "Python bytecode (.pyc) support for Binary Ninja", last: "20240303", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "recursion", url: "https://github.com/zznop/bn-recursion", author: "zznop", author_url: "https://github.com/zznop", desc: "Locate and annotate direct and indirect recursion", last: "20200722", tags: ["helper"], src: "python", origin: "community"},
-{name: "Renesas M16C Architecture", url: "https://github.com/whitequark/binja-m16c", author: "whitequark", author_url: "https://github.com/whitequark", desc: "A plugin providing the Renesas M16C architecture.", last: "20200119", tags: ["architecture"], src: "python", origin: "community"},
-{name: "Renesas V850 architecture plugin", url: "https://github.com/tizmd/binja-v850", author: "Tomonori Izumida <tizmd@iij.ad.jp>", author_url: "https://github.com/tizmd", desc: "An architecture plugin for Renesas V850 series", last: "20221107", tags: ["architecture"], src: "python", origin: "community"},
-{name: "ret-sync", url: "https://github.com/bootleg/ret-sync", author: "Alexandre Gazet", author_url: "https://github.com/bootleg", desc: "Helper plugin to synchronize Binary Ninja with a debugging session", last: "20220121", tags: ["helper"], src: "c", origin: "community"},
-{name: "ReverserAI", url: "https://github.com/mrphrazer/reverser_ai", author: "Tim Blazytko", author_url: "https://github.com/mrphrazer", desc: "Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.", last: "20240621", tags: ["helper"], src: "python", origin: "community"},
-{name: "revsync", url: "https://github.com/lunixbochs/revsync", author: "lunixbochs", author_url: "https://github.com/lunixbochs", desc: "Realtime IDA Pro and Binary Ninja sync plugin", last: "20200514", tags: ["ui"], src: "python", origin: "community"},
-{name: "ripr", url: "https://github.com/pbiernat/ripr", author: "Patrick Biernat", author_url: "https://github.com/pbiernat", desc: "Package binary code as a Python class backed by Unicorn-Engine", last: "20220708", tags: ["helper"], src: "python", origin: "community"},
-{name: "RopView", url: "https://github.com/elbee-cyber/RopView", author: "elbee", author_url: "https://github.com/elbee-cyber", desc: "RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.", last: "20240602", tags: ["binaryview", "helper", "ui"], src: "python", origin: "community"},
-{name: "Rust Demangle", url: "https://github.com/inspier/BinjaRustDemangler", author: "inspier", author_url: "https://github.com/inspier", desc: "Demangles Rust symbols.", last: "20230709", tags: ["helper"], src: "python", origin: "community"},
-{name: "Rust String Slicer", url: "https://github.com/cxiao/rust_string_slicer", author: "Cindy Xiao", author_url: "https://github.com/cxiao", desc: "Rust binary string recovery plugin", last: "20231225", tags: ["helper"], src: "python", origin: "community"},
-{name: "Rust Type Layout Helper", url: "https://github.com/cxiao/rust_type_layout_helper_bn", author: "Cindy Xiao", author_url: "https://github.com/cxiao", desc: "An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.", last: "20230427", tags: ["helper"], src: "python", origin: "community"},
-{name: "Screenshot Ninja", url: "https://github.com/jonpalmisc/screenshot_ninja", author: "jonpalmisc", author_url: "https://github.com/jonpalmisc", desc: "Easily capture Binary Ninja screenshots in ultra-high resolution", last: "20240226", tags: ["helper"], src: "python", origin: "community"},
-{name: "SEH Helper", url: "https://github.com/EliseZeroTwo/SEH-Helper", author: "EliseZeroTwo", author_url: "https://github.com/EliseZeroTwo", desc: "Helper for exploring structured exception handlers in PEs", last: "20220219", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "semgrep-bn", url: "https://github.com/interruptlabs/semgrep_bn", author: "Samman Palihapitiya", author_url: "https://github.com/interruptlabs", desc: "Search code with Semgrep", last: "20240410", tags: ["helper"], src: "python", origin: "community"},
-{name: "SENinja", url: "https://github.com/borzacchiello/seninja", author: "Luca Borzacchiello", author_url: "https://github.com/borzacchiello", desc: "Symbolic execution plugin for BinaryNinja", last: "20240224", tags: ["helper"], src: "python", origin: "community"},
-{name: "SEPROM Loader", url: "https://github.com/matteyeux/seprom-loader", author: "matteyeux", author_url: "https://github.com/matteyeux", desc: "Binary View for loading 32 bits and 64 bits Apple SEPROM", last: "20230717", tags: ["binaryview"], src: "python", origin: "community"},
-{name: "Shellcoder", url: "https://github.com/0xricksanchez/Shellcoder", author: "434b", author_url: "https://github.com/0xricksanchez", desc: "Interactive shellcode disassembler/assembler", last: "20240731", tags: ["helper"], src: "python", origin: "community"},
-{name: "Sourcery Pane", url: "https://github.com/mechanicalnull/sourcery_pane", author: "mechanicalnull", author_url: "https://github.com/mechanicalnull", desc: "Synchronized source code pane for debug binaries", last: "20190715", tags: ["helper", "ui"], src: "python", origin: "community"},
-{name: "Swift Demangler", url: "https://github.com/saagarjha/binja-swift-demangler", author: "Saagar Jha", author_url: "https://github.com/saagarjha", desc: "Demangles Swift functions.", last: "20230915", tags: ["architecture", "binaryview", "core", "helper", "ui"], src: "python", origin: "community"},
-{name: "Switch Loader", url: "https://github.com/EliseZeroTwo/Switch-Binja-Loader", author: "EliseZeroTwo", author_url: "https://github.com/EliseZeroTwo", desc: "Loader for common Nintendo Switch binaries", last: "20200722", tags: ["binaryview", "helper"], src: "python", origin: "community"},
-{name: "Symgrate2 Plugin", url: "https://github.com/travisgoodspeed/symgrate2-binja-plugin", author: "Travis Goodspeed", author_url: "https://github.com/travisgoodspeed", desc: "This is a client plugin for recovering symbols using the Symgrate2 server.", last: "20210911", tags: ["helper"], src: "python", origin: "community"},
-{name: "Syscaller", url: "https://github.com/carstein/Syscaller", author: "Michal Melewski", author_url: "https://github.com/carstein", desc: "Decorate encountered syscalls with details like name and arguments", last: "20190715", tags: ["helper"], src: "python", origin: "community"},
-{name: "Tag Team", url: "https://github.com/psifertex/tagteam", author: "psifertex", author_url: "https://github.com/psifertex", desc: "Tags functions using emoji for a number of interesting characteristics", last: "20210312", tags: ["helper"], src: "python", origin: "community"},
-{name: "TE Loader", url: "https://github.com/zznop/te-loader", author: "Brandon Miller", author_url: "https://github.com/zznop", desc: "Binary Ninja plugin for loading EFI Terse Executable files", last: "20240228", tags: ["architecture"], src: "python", origin: "community"},
-{name: "themida-unmutate-bn", url: "https://github.com/ergrelet/themida-unmutate-bn", author: "Erwan Grelet", author_url: "https://github.com/ergrelet", desc: "Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x\'s mutation-based obfuscation.", last: "20240728", tags: ["helper"], src: "python", origin: "community"},
-{name: "TypeLib Exporter", url: "https://github.com/SmoothHacker/TypeLib-Exporter", author: "SmoothHacker", author_url: "https://github.com/SmoothHacker", desc: "This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.", last: "20221015", tags: ["binaryview", "helper", "ui"], src: "python", origin: "community"},
-{name: "UniSymbol", url: "https://github.com/redthing1/binja_unisymbol", author: "redthing1", author_url: "https://github.com/redthing1", desc: "Import/Export symbols from/to IDA, Ghidra, and Binary Ninja", last: "20240907", tags: ["binaryview", "ui"], src: "python", origin: "community"},
-{name: "VMNDH-2k12 Architecture Plugin", url: "https://github.com/verylazyguy/binaryninja-vmndh", author: "verylazyguy", author_url: "https://github.com/verylazyguy", desc: "A disassembler and lifter for the VMNDH-2k12 architecture.", last: "20190710", tags: ["architecture"], src: "python", origin: "community"},
-{name: "VTIL Plugin", url: "https://github.com/vtil-project/VTIL-BinaryNinja", author: "Layle", author_url: "https://github.com/vtil-project", desc: "Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja", last: "20200705", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "VulnFanatic", url: "https://github.com/Martyx00/VulnFanatic", author: "Martin Petran", author_url: "https://github.com/Martyx00", desc: "Assistant plugin for vulnerability research.", last: "20240907", tags: ["helper"], src: "python", origin: "community"},
-{name: "WASM Plugin", url: "https://github.com/ivision-research/binjawa", author: "Meador Inge", author_url: "https://github.com/ivision-research", desc: "This is a plugin for disassembling and lifting WASM images..", last: "20200630", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "Windows Driver Analyzer", url: "https://github.com/shareef12/driveranalyzer", author: "shareef12", author_url: "https://github.com/shareef12", desc: "Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver", last: "20190808", tags: ["helper"], src: "python", origin: "community"},
-{name: "x64dbgbinja", url: "https://github.com/x64dbg/x64dbgbinja", author: "x64dbg", author_url: "https://github.com/x64dbg", desc: "Official x64dbg plugin for Binary Ninja.", last: "20240915", tags: ["sync"], src: "python", origin: "community"},
-{name: "XNU Sysctl Hunter", url: "https://github.com/xpcmdshell/SysctlHunter", author: "actae0n", author_url: "https://github.com/xpcmdshell", desc: "XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.", last: "20210722", tags: ["helper"], src: "python", origin: "community"},
-{name: "Xtensa Architecture and ESP8266 Loader", url: "https://github.com/zackorndorff/binja-xtensa", author: "Zack Orndorff", author_url: "https://github.com/zackorndorff", desc: "Xtensa Architecture and ESP8266 Image Loader", last: "20210817", tags: ["architecture", "binaryview"], src: "python", origin: "community"},
-{name: "YARA Scan", url: "https://github.com/trib0r3/binja-yara", author: "trib0r3", author_url: "https://github.com/trib0r3", desc: "YARA signatures", last: "20200526", tags: ["binaryview", "core"], src: "python", origin: "community"},
-{name: "μBlaze Architecture Plugin", url: "https://github.com/amtal/microblaze", author: "amtal", author_url: "https://github.com/amtal", desc: "Configurable soft core for Xilinx FPGAs.", last: "20220529", tags: ["architecture"], src: "python", origin: "community"},
-{name: "6502 Architecture Plugin", url: "https://github.com/Vector35/6502", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "An architecture plugin for 6502 and binary view for NES roms.", last: "20230530", tags: ["architecture"], src: "python", origin: "official"},
-{name: "COMpanion", url: "https://github.com/Vector35/COMpanion", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.", last: "20240725", tags: ["helper"], src: "python", origin: "official"},
-{name: "EFI Resolver", url: "https://github.com/Vector35/efi-resolver", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "A Binary Ninja plugin that automatically resolves type information for EFI protocol usage.", last: "20240718", tags: ["helper"], src: "python", origin: "official"},
-{name: "Kaitai UI Plugin", url: "https://github.com/Vector35/kaitai", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Browse hex with a tree view populated from Kaitai Struct formats.", last: "20240717", tags: ["ui"], src: "python", origin: "official"},
-{name: "Opaque Predicate Patcher", url: "https://github.com/Vector35/OpaquePredicatePatcher", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Automatically patch opaque predicates", last: "20220502", tags: ["helper"], src: "python", origin: "official"},
-{name: "Sample Plugin", url: "https://github.com/Vector35/sample_plugin", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "This is a short description meant to fit on one line.", last: "20211122", tags: ["architecture", "binaryview", "core", "helper", "ui"], src: "python", origin: "official"},
-{name: "Sidekick", url: "https://github.com/vector35/sidekick-public", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Binary Ninja Sidekick", last: "20240812", tags: ["helper", "ui"], src: "python", origin: "official"},
-{name: "Signature Kit Plugin", url: "https://github.com/Vector35/sigkit", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Python tools for working with Signature Libraries", last: "20211202", tags: ["core", "helper", "ui"], src: "python", origin: "official"},
-{name: "Snippet UI Plugin", url: "https://github.com/Vector35/snippets", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features", last: "20240711", tags: ["ui"], src: "python", origin: "official"},
-{name: "Tantō", url: "https://github.com/Vector35/tanto", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Tantō slices functions to help you can understand them faster.", last: "20220621", tags: ["helper", "ui"], src: "python", origin: "official"},
-{name: "UnPack.Me Automation", url: "https://github.com/Vector35/unpacme", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Automatically analyze a binary via unpac.me", last: "20230913", tags: ["ui"], src: "python", origin: "official"},
-{name: "Z80 Architecture Plugin", url: "https://github.com/Vector35/Z80", author: "Vector 35 Inc", author_url: "https://github.com/Vector35", desc: "Sample Z80 architecture plugin written to accompany the <a href=\'https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html\'>introductory blog post</a>.", last: "20230906", tags: ["architecture"], src: "python", origin: "official"},
-{name: "McNinja", url: "https://github.com/ElykDeer/McNinja", author: "ElykDeer", author_url: "https://github.com/ElykDeer/", desc: "Compiles BinaryNinja's MLIL to LLVM", last: "20220121", tags: ["helper"], src: "python", origin: "community"},
+  {
+    "name": "Sidekick",
+    "url": "https://github.com/vector35/sidekick-public",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Binary Ninja Sidekick",
+    "last": "2024-08-12",
+    "tags": [
+      "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "COMpanion",
+    "url": "https://github.com/Vector35/COMpanion",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.",
+    "last": "2024-07-25",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "EFI Resolver",
+    "url": "https://github.com/Vector35/efi-resolver",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "A Binary Ninja plugin that automatically resolves type information for EFI protocol usage.",
+    "last": "2024-07-18",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "UnPack.Me Automation",
+    "url": "https://github.com/Vector35/unpacme",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Automatically analyze a binary via unpac.me",
+    "last": "2023-09-13",
+    "tags": [
+      "ui"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Tantō",
+    "url": "https://github.com/Vector35/tanto",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Tantō slices functions to help you can understand them faster.",
+    "last": "2022-06-21",
+    "tags": [
+      "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "6502 Architecture Plugin",
+    "url": "https://github.com/Vector35/6502",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "An architecture plugin for 6502 and binary view for NES roms.",
+    "last": "2023-05-30",
+    "tags": [
+      "architecture"
+    ],
+    "src": [
+      "python2",
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Kaitai UI Plugin",
+    "url": "https://github.com/Vector35/kaitai",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Browse hex with a tree view populated from Kaitai Struct formats.",
+    "last": "2024-07-17",
+    "tags": [
+      "ui"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Snippet UI Plugin",
+    "url": "https://github.com/Vector35/snippets",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features",
+    "last": "2024-07-11",
+    "tags": [
+      "ui"
+    ],
+    "src": [
+      "python2",
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Opaque Predicate Patcher",
+    "url": "https://github.com/Vector35/OpaquePredicatePatcher",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Automatically patch opaque predicates",
+    "last": "2022-05-02",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python2",
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Sample Plugin",
+    "url": "https://github.com/Vector35/sample_plugin",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "This is a short description meant to fit on one line.",
+    "last": "2021-11-22",
+    "tags": [
+      "core",
+      "ui",
+      "architecture",
+      "binaryview",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Z80 Architecture Plugin",
+    "url": "https://github.com/Vector35/Z80",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.",
+    "last": "2023-09-06",
+    "tags": [
+      "architecture"
+    ],
+    "src": [
+      "python2",
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Signature Kit Plugin",
+    "url": "https://github.com/Vector35/sigkit",
+    "author": "Vector 35 Inc",
+    "author_url": "https://github.com/Vector35",
+    "desc": "Python tools for working with Signature Libraries",
+    "last": "2021-12-02",
+    "tags": [
+      "helper",
+      "ui",
+      "core"
+    ],
+    "src": [
+      "python2",
+      "python3"
+    ],
+    "origin": "community"
+  }
 ];
+
+module.exports = { tabledata };
