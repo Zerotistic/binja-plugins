@@ -5,7 +5,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Binary Ninja Sidekick",
-    "last": "2024-08-12",
+    "last": "2024-10-31",
     "tags": [
       "ui",
       "helper"
@@ -98,7 +98,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Browse hex with a tree view populated from Kaitai Struct formats.",
-    "last": "2024-07-17",
+    "last": "2024-10-31",
     "tags": [
       "ui"
     ],
@@ -113,7 +113,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features",
-    "last": "2024-07-11",
+    "last": "2024-08-30",
     "tags": [
       "ui"
     ],
@@ -180,7 +180,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Python tools for working with Signature Libraries",
-    "last": "2021-12-02",
+    "last": "2024-09-09",
     "tags": [
       "helper",
       "ui",
