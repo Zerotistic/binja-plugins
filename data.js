@@ -620,7 +620,7 @@ var tabledata = [
     "author": "x64dbg",
     "author_url": "https://github.com/x64dbg",
     "desc": "Official x64dbg plugin for Binary Ninja.",
-    "last": "2024-09-15",
+    "last": "2024-10-23",
     "tags": [
       "sync"
     ],
