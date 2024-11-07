@@ -1956,12 +1956,12 @@ var tabledata = [
     "author": "zznop",
     "author_url": "https://github.com/zznop",
     "desc": "SEGA Megadrive/Genesis ROM Hacking Toolkit",
-    "last": "2019-07-23",
+    "last": "2024-11-04",
     "tags": [
-      "patch"
+      "ui",
+      "helper"
     ],
     "src": [
-      "python2",
       "python3"
     ],
     "origin": "community"
