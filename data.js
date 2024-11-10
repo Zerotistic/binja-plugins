@@ -866,7 +866,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2024-10-04",
+    "last": "2024-11-05",
     "tags": [
       "sync"
     ],
@@ -2557,6 +2557,21 @@ var tabledata = [
     "last": "2024-01-25",
     "tags": [
       "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Binja Snapshot Manager",
+    "url": "https://github.com/d0mnik/binja_snapshot_manager",
+    "author": "d0minik",
+    "author_url": "https://github.com/d0mnik",
+    "desc": "Binary Ninja plugin to take and manage database snapshots",
+    "last": "2024-10-30",
+    "tags": [
       "helper"
     ],
     "src": [
