@@ -289,7 +289,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-10-21",
+    "last": "2024-11-24",
     "tags": [
       "helper"
     ],
@@ -2571,6 +2571,36 @@ var tabledata = [
     "author_url": "https://github.com/d0mnik",
     "desc": "Binary Ninja plugin to take and manage database snapshots",
     "last": "2024-10-30",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "binja-ps3",
+    "url": "https://github.com/valters-tomsons/bninja-ps3",
+    "author": "Valters Tomsons",
+    "author_url": "https://github.com/valters-tomsons",
+    "desc": "Playstation 3 ELF loader",
+    "last": "2024-11-26",
+    "tags": [
+      "binaryview"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Apple Blocks",
+    "url": "https://github.com/droe/binja-blocks",
+    "author": "Daniel Roethlisberger",
+    "author_url": "https://github.com/droe",
+    "desc": "Annotation of Apple libclosure blocks.",
+    "last": "2024-11-26",
     "tags": [
       "helper"
     ],
