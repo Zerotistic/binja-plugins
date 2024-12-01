@@ -289,7 +289,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-11-24",
+    "last": "2024-11-29",
     "tags": [
       "helper"
     ],
@@ -385,7 +385,7 @@ var tabledata = [
     "author": "434b",
     "author_url": "https://github.com/0xricksanchez",
     "desc": "Interactive shellcode disassembler/assembler",
-    "last": "2024-07-31",
+    "last": "2024-11-28",
     "tags": [
       "helper"
     ],
@@ -2582,10 +2582,10 @@ var tabledata = [
   {
     "name": "binja-ps3",
     "url": "https://github.com/valters-tomsons/bninja-ps3",
-    "author": "Valters Tomsons",
+    "author": "faith",
     "author_url": "https://github.com/valters-tomsons",
     "desc": "Playstation 3 ELF loader",
-    "last": "2024-11-26",
+    "last": "2024-11-28",
     "tags": [
       "binaryview"
     ],
@@ -2600,7 +2600,7 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-11-26",
+    "last": "2024-12-01",
     "tags": [
       "helper"
     ],
