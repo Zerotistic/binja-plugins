@@ -289,7 +289,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-11-29",
+    "last": "2024-12-02",
     "tags": [
       "helper"
     ],
@@ -2600,7 +2600,7 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-12-01",
+    "last": "2024-12-04",
     "tags": [
       "helper"
     ],
