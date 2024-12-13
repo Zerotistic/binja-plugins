@@ -289,7 +289,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-12-02",
+    "last": "2024-12-11",
     "tags": [
       "helper"
     ],
@@ -2600,7 +2600,22 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-12-04",
+    "last": "2024-12-12",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "binjaextras",
+    "url": "https://github.com/xorhex/binjaextras",
+    "author": "xorhex",
+    "author_url": "https://github.com/xorhex",
+    "desc": "Various features to make windows malware analysis easier.",
+    "last": "2024-12-08",
     "tags": [
       "helper"
     ],
