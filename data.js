@@ -289,7 +289,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-12-11",
+    "last": "2024-12-17",
     "tags": [
       "helper"
     ],
@@ -2600,7 +2600,7 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-12-12",
+    "last": "2024-12-14",
     "tags": [
       "helper"
     ],
@@ -2616,6 +2616,21 @@ var tabledata = [
     "author_url": "https://github.com/xorhex",
     "desc": "Various features to make windows malware analysis easier.",
     "last": "2024-12-08",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "permap",
+    "url": "https://github.com/redballoonsecurity/permap",
+    "author": "Red Balloon Security",
+    "author_url": "https://github.com/redballoonsecurity",
+    "desc": "Supports loading .per files into Binary Ninja.",
+    "last": "2024-12-18",
     "tags": [
       "helper"
     ],
