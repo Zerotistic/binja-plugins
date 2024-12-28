@@ -289,7 +289,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-12-17",
+    "last": "2024-12-19",
     "tags": [
       "helper"
     ],
@@ -353,7 +353,7 @@ var tabledata = [
     "author": "Jason Tang",
     "author_url": "https://github.com/jtang613",
     "desc": "A plugin that provides LLM helpers to explain code and assist in RE.",
-    "last": "2024-09-29",
+    "last": "2024-12-19",
     "tags": [
       "ui",
       "helper"
@@ -2600,7 +2600,7 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-12-14",
+    "last": "2024-12-26",
     "tags": [
       "helper"
     ],
@@ -2627,11 +2627,27 @@ var tabledata = [
   {
     "name": "permap",
     "url": "https://github.com/redballoonsecurity/permap",
-    "author": "Red Balloon Security",
+    "author": "jepson2k, dannyp303",
     "author_url": "https://github.com/redballoonsecurity",
     "desc": "Supports loading .per files into Binary Ninja.",
     "last": "2024-12-18",
     "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "BN Inspectors",
+    "url": "https://github.com/CouleeApps/bn_inspectors",
+    "author": "Glenn Smith",
+    "author_url": "https://github.com/CouleeApps",
+    "desc": "Sidebar inspectors for debugging Binary Ninja itself",
+    "last": "2024-12-27",
+    "tags": [
+      "ui",
       "helper"
     ],
     "src": [
