@@ -2645,9 +2645,26 @@ var tabledata = [
     "author": "Glenn Smith",
     "author_url": "https://github.com/CouleeApps",
     "desc": "Sidebar inspectors for debugging Binary Ninja itself",
-    "last": "2024-12-27",
+    "last": "2024-12-28",
     "tags": [
       "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Type Oxidizer",
+    "url": "https://github.com/austinzwile/TypeOxidizer",
+    "author": "austinzwile / azw",
+    "author_url": "https://github.com/austinzwile",
+    "desc": "TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.",
+    "last": "2024-12-28",
+    "tags": [
+      "ui",
+      "binaryview",
       "helper"
     ],
     "src": [
