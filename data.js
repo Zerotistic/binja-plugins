@@ -2600,7 +2600,7 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-12-26",
+    "last": "2024-12-31",
     "tags": [
       "helper"
     ],
