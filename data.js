@@ -1284,7 +1284,7 @@ var tabledata = [
     "author": "fkie-cad",
     "author_url": "https://github.com/fkie-cad",
     "desc": "Research Decompiler to generate a C-like function representation",
-    "last": "2024-10-01",
+    "last": "2025-01-01",
     "tags": [
       "helper",
       "ui"
@@ -2644,7 +2644,7 @@ var tabledata = [
     "author": "Glenn Smith",
     "author_url": "https://github.com/CouleeApps",
     "desc": "Sidebar inspectors for debugging Binary Ninja itself",
-    "last": "2024-12-28",
+    "last": "2025-01-02",
     "tags": [
       "ui",
       "helper"
