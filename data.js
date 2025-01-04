@@ -5,7 +5,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Binary Ninja Sidekick",
-    "last": "2024-10-31",
+    "last": "2025-01-03",
     "tags": [
       "ui",
       "helper"
@@ -66,7 +66,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Tantō slices functions to help you can understand them faster.",
-    "last": "2022-06-21",
+    "last": "2024-11-10",
     "tags": [
       "ui",
       "helper"
@@ -129,12 +129,11 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Automatically patch opaque predicates",
-    "last": "2022-05-02",
+    "last": "2024-11-19",
     "tags": [
       "helper"
     ],
     "src": [
-      "python2",
       "python3"
     ],
     "origin": "community"
