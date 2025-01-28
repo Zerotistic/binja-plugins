@@ -228,7 +228,7 @@ var tabledata = [
     "author": "Lam Jun Rong",
     "author_url": "https://github.com/junron",
     "desc": "Automatically set enums for standard functions",
-    "last": "2024-10-15",
+    "last": "2025-01-16",
     "tags": [
       "helper"
     ],
@@ -243,7 +243,7 @@ var tabledata = [
     "author": "Accenture (Martin Petran)",
     "author_url": "https://github.com/Accenture",
     "desc": "Architecture plugin for Renesas RH850/V850 family of processors.",
-    "last": "2024-10-11",
+    "last": "2025-01-22",
     "tags": [
       "architecture"
     ],
@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2024-12-19",
+    "last": "2025-01-25",
     "tags": [
       "helper"
     ],
@@ -619,7 +619,7 @@ var tabledata = [
     "author": "x64dbg",
     "author_url": "https://github.com/x64dbg",
     "desc": "Official x64dbg plugin for Binary Ninja.",
-    "last": "2024-10-23",
+    "last": "2025-01-24",
     "tags": [
       "sync"
     ],
@@ -865,7 +865,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2024-11-05",
+    "last": "2025-01-26",
     "tags": [
       "sync"
     ],
@@ -2614,7 +2614,7 @@ var tabledata = [
     "author": "xorhex",
     "author_url": "https://github.com/xorhex",
     "desc": "Various features to make windows malware analysis easier.",
-    "last": "2024-12-08",
+    "last": "2025-01-17",
     "tags": [
       "helper"
     ],
