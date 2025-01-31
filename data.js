@@ -2670,6 +2670,22 @@ var tabledata = [
       "python3"
     ],
     "origin": "community"
+  },
+  {
+    "name": "bn-ebpf-solana",
+    "url": "https://github.com/otter-sec/bn-ebpf-solana",
+    "author": "OtterSec LLC",
+    "author_url": "https://github.com/otter-sec",
+    "desc": "An architecture/binaryview plugin for Solana EBPF.",
+    "last": "2025-01-29",
+    "tags": [
+      "architecture",
+      "binaryview"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
   }
 ];
 
