@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-01-25",
+    "last": "2025-02-16",
     "tags": [
       "helper"
     ],
@@ -511,7 +511,7 @@ var tabledata = [
     "author": "elbee",
     "author_url": "https://github.com/elbee-cyber",
     "desc": "RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.",
-    "last": "2024-06-02",
+    "last": "2025-02-22",
     "tags": [
       "binaryview",
       "helper",
@@ -544,7 +544,7 @@ var tabledata = [
     "author": "Samman Palihapitiya",
     "author_url": "https://github.com/interruptlabs",
     "desc": "Search code with Semgrep",
-    "last": "2024-04-10",
+    "last": "2025-02-04",
     "tags": [
       "helper"
     ],
@@ -865,7 +865,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-01-26",
+    "last": "2025-02-12",
     "tags": [
       "sync"
     ],
@@ -1050,7 +1050,7 @@ var tabledata = [
     "author": "Mark Griffin (@seeinglogic)",
     "author_url": "https://github.com/seeinglogic",
     "desc": "Browser-based interactive graph for viewing callgraph, static analysis, and coverage information",
-    "last": "2023-05-24",
+    "last": "2025-02-15",
     "tags": [
       "helper",
       "ui"
@@ -2660,7 +2660,7 @@ var tabledata = [
     "author": "austinzwile / azw",
     "author_url": "https://github.com/austinzwile",
     "desc": "TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.",
-    "last": "2024-12-28",
+    "last": "2025-02-24",
     "tags": [
       "ui",
       "binaryview",
