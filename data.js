@@ -5,7 +5,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Binary Ninja Sidekick",
-    "last": "2025-01-03",
+    "last": "2025-02-27",
     "tags": [
       "ui",
       "helper"
@@ -66,7 +66,7 @@ var tabledata = [
     "author": "Vector 35 Inc",
     "author_url": "https://github.com/Vector35",
     "desc": "Tantō slices functions to help you can understand them faster.",
-    "last": "2024-11-10",
+    "last": "2025-03-11",
     "tags": [
       "ui",
       "helper"
