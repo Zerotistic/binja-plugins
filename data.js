@@ -258,7 +258,7 @@ var tabledata = [
     "author": "Martin Petran",
     "author_url": "https://github.com/Martyx00",
     "desc": "PowerPC VLE support via architecture extension.",
-    "last": "2024-10-02",
+    "last": "2025-03-03",
     "tags": [
       "architecture"
     ],
@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-02-16",
+    "last": "2025-03-01",
     "tags": [
       "helper"
     ],
@@ -1577,7 +1577,7 @@ var tabledata = [
     "author": "Tim Blazytko",
     "author_url": "https://github.com/mrphrazer",
     "desc": "Automatically detect obfuscated code and other interesting code constructs",
-    "last": "2024-04-29",
+    "last": "2025-03-14",
     "tags": [
       "helper"
     ],
@@ -2677,10 +2677,26 @@ var tabledata = [
     "author": "OtterSec LLC",
     "author_url": "https://github.com/otter-sec",
     "desc": "An architecture/binaryview plugin for Solana EBPF.",
-    "last": "2025-01-29",
+    "last": "2025-03-06",
     "tags": [
       "architecture",
       "binaryview"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Dev Tools for Tantō",
+    "url": "https://github.com/ElykDeer/tanto-devtools",
+    "author": "Elykdeer",
+    "author_url": "https://github.com/ElykDeer",
+    "desc": "Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.",
+    "last": "2025-03-13",
+    "tags": [
+      "ui",
+      "helper"
     ],
     "src": [
       "python3"
