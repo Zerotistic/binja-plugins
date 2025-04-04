@@ -243,7 +243,7 @@ var tabledata = [
     "author": "Accenture (Martin Petran)",
     "author_url": "https://github.com/Accenture",
     "desc": "Architecture plugin for Renesas RH850/V850 family of processors.",
-    "last": "2025-01-22",
+    "last": "2025-03-31",
     "tags": [
       "architecture"
     ],
@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-03-01",
+    "last": "2025-03-21",
     "tags": [
       "helper"
     ],
@@ -910,7 +910,7 @@ var tabledata = [
     "author": "Zion Basque (@mahaloz)",
     "author_url": "https://github.com/mahaloz",
     "desc": "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB",
-    "last": "2024-09-08",
+    "last": "2025-03-29",
     "tags": [
       "core"
     ],
@@ -1284,7 +1284,7 @@ var tabledata = [
     "author": "fkie-cad",
     "author_url": "https://github.com/fkie-cad",
     "desc": "Research Decompiler to generate a C-like function representation",
-    "last": "2025-01-01",
+    "last": "2025-04-01",
     "tags": [
       "helper",
       "ui"
@@ -2696,6 +2696,39 @@ var tabledata = [
     "last": "2025-03-13",
     "tags": [
       "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Binary Ninja Wrapped",
+    "url": "https://github.com/psifertex/bnwrap",
+    "author": "Jordan Wiens",
+    "author_url": "https://github.com/psifertex",
+    "desc": "Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).",
+    "last": "2025-04-03",
+    "tags": [
+      "ui"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Binary Ninja MCP",
+    "url": "https://github.com/fosdickio/binary_ninja_mcp",
+    "author": "fosdick.io",
+    "author_url": "https://github.com/fosdickio",
+    "desc": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
+    "last": "2025-04-03",
+    "tags": [
+      "core",
+      "binaryview",
+      "architecture",
       "helper"
     ],
     "src": [
