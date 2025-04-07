@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-03-21",
+    "last": "2025-04-06",
     "tags": [
       "helper"
     ],
@@ -2729,6 +2729,22 @@ var tabledata = [
       "core",
       "binaryview",
       "architecture",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "MCP Server",
+    "url": "https://github.com/MCPPhalanx/binaryninja-mcp",
+    "author": "Known Rabbit",
+    "author_url": "https://github.com/MCPPhalanx",
+    "desc": "MCP Server for Binary Ninja.",
+    "last": "2025-04-06",
+    "tags": [
+      "ui",
       "helper"
     ],
     "src": [
