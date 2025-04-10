@@ -511,7 +511,7 @@ var tabledata = [
     "author": "elbee",
     "author_url": "https://github.com/elbee-cyber",
     "desc": "RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.",
-    "last": "2025-02-22",
+    "last": "2025-04-07",
     "tags": [
       "binaryview",
       "helper",
