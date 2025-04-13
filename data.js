@@ -619,7 +619,7 @@ var tabledata = [
     "author": "x64dbg",
     "author_url": "https://github.com/x64dbg",
     "desc": "Official x64dbg plugin for Binary Ninja.",
-    "last": "2025-01-24",
+    "last": "2025-04-10",
     "tags": [
       "sync"
     ],
@@ -865,7 +865,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-02-12",
+    "last": "2025-04-11",
     "tags": [
       "sync"
     ],
@@ -2724,7 +2724,7 @@ var tabledata = [
     "author": "fosdick.io",
     "author_url": "https://github.com/fosdickio",
     "desc": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
-    "last": "2025-04-03",
+    "last": "2025-04-11",
     "tags": [
       "core",
       "binaryview",
@@ -2743,6 +2743,22 @@ var tabledata = [
     "author_url": "https://github.com/MCPPhalanx",
     "desc": "MCP Server for Binary Ninja.",
     "last": "2025-04-06",
+    "tags": [
+      "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Another MCP Server",
+    "url": "https://github.com/MCPPhalanx/binaryninja-mcp",
+    "author": "Known Rabbit",
+    "author_url": "https://github.com/MCPPhalanx",
+    "desc": "The MCP server plugin, enables LLM integration by Model Context Protocol (MCP) through SSE or STDIO transport.",
+    "last": "2025-04-08",
     "tags": [
       "ui",
       "helper"
