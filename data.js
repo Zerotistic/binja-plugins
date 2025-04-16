@@ -865,7 +865,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-04-11",
+    "last": "2025-04-12",
     "tags": [
       "sync"
     ],
@@ -2761,6 +2761,21 @@ var tabledata = [
     "last": "2025-04-08",
     "tags": [
       "ui",
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Copy As YARA",
+    "url": "https://github.com/ald3ns/copy-as-yara",
+    "author": "alden (@birchb0y)",
+    "author_url": "https://github.com/ald3ns",
+    "desc": "Let's you copy sections of disassembly formatted for YARA.",
+    "last": "2025-04-14",
+    "tags": [
       "helper"
     ],
     "src": [
