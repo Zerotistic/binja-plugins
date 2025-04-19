@@ -865,7 +865,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-04-12",
+    "last": "2025-04-18",
     "tags": [
       "sync"
     ],
@@ -910,7 +910,7 @@ var tabledata = [
     "author": "Zion Basque (@mahaloz)",
     "author_url": "https://github.com/mahaloz",
     "desc": "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB",
-    "last": "2025-03-29",
+    "last": "2025-04-18",
     "tags": [
       "core"
     ],
@@ -2775,6 +2775,21 @@ var tabledata = [
     "author_url": "https://github.com/ald3ns",
     "desc": "Let's you copy sections of disassembly formatted for YARA.",
     "last": "2025-04-14",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "header-query",
+    "url": "https://github.com/interruptlabs/header_query_bn",
+    "author": "Ashleigh Johannes",
+    "author_url": "https://github.com/interruptlabs",
+    "desc": "Import C header file types and function parameters from unprocessed or partial header files",
+    "last": "2025-04-17",
     "tags": [
       "helper"
     ],
