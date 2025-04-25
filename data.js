@@ -2737,22 +2737,6 @@ var tabledata = [
     "origin": "community"
   },
   {
-    "name": "MCP Server",
-    "url": "https://github.com/MCPPhalanx/binaryninja-mcp",
-    "author": "Known Rabbit",
-    "author_url": "https://github.com/MCPPhalanx",
-    "desc": "MCP Server for Binary Ninja.",
-    "last": "2025-04-06",
-    "tags": [
-      "ui",
-      "helper"
-    ],
-    "src": [
-      "python3"
-    ],
-    "origin": "community"
-  },
-  {
     "name": "Another MCP Server",
     "url": "https://github.com/MCPPhalanx/binaryninja-mcp",
     "author": "Known Rabbit",
