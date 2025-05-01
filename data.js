@@ -303,14 +303,16 @@ var tabledata = [
     "author": "redthing1",
     "author_url": "https://github.com/redthing1",
     "desc": "Game ROM Loader for Binary Ninja",
-    "last": "2024-09-04",
+    "last": "2025-04-26",
     "tags": [
       "core",
       "architecture",
       "binaryview",
       "ui"
     ],
-    "src": [],
+    "src": [
+      "python3"
+    ],
     "origin": "community"
   },
   {
@@ -2775,6 +2777,22 @@ var tabledata = [
     "desc": "Import C header file types and function parameters from unprocessed or partial header files",
     "last": "2025-04-17",
     "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Mole",
+    "url": "https://github.com/cyber-defence-campus/mole",
+    "author": "Damian Pfammatter and Sergio Paganoni",
+    "author_url": "https://github.com/cyber-defence-campus",
+    "desc": "Uncover interesting paths using static backward slicing",
+    "last": "2025-04-25",
+    "tags": [
+      "ui",
       "helper"
     ],
     "src": [
