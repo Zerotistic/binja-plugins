@@ -303,7 +303,7 @@ var tabledata = [
     "author": "redthing1",
     "author_url": "https://github.com/redthing1",
     "desc": "Game ROM Loader for Binary Ninja",
-    "last": "2025-04-26",
+    "last": "2025-05-10",
     "tags": [
       "core",
       "architecture",
@@ -758,7 +758,7 @@ var tabledata = [
     "author": "Saagar Jha",
     "author_url": "https://github.com/saagarjha",
     "desc": "Demangles Swift functions.",
-    "last": "2023-09-15",
+    "last": "2025-05-03",
     "tags": [
       "core",
       "ui",
@@ -2601,7 +2601,7 @@ var tabledata = [
     "author": "Daniel Roethlisberger",
     "author_url": "https://github.com/droe",
     "desc": "Annotation of Apple libclosure blocks.",
-    "last": "2024-12-31",
+    "last": "2025-05-04",
     "tags": [
       "helper"
     ],
@@ -2744,7 +2744,7 @@ var tabledata = [
     "author": "Known Rabbit",
     "author_url": "https://github.com/MCPPhalanx",
     "desc": "The MCP server plugin, enables LLM integration by Model Context Protocol (MCP) through SSE or STDIO transport.",
-    "last": "2025-04-08",
+    "last": "2025-05-11",
     "tags": [
       "ui",
       "helper"
@@ -2790,10 +2790,27 @@ var tabledata = [
     "author": "Damian Pfammatter and Sergio Paganoni",
     "author_url": "https://github.com/cyber-defence-campus",
     "desc": "Uncover interesting paths using static backward slicing",
-    "last": "2025-04-25",
+    "last": "2025-04-30",
     "tags": [
       "ui",
       "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "CoolTypeOxidizer",
+    "url": "https://github.com/unknowntrojan/binja_cooltypeoxidizer",
+    "author": "unknowntrojan",
+    "author_url": "https://github.com/unknowntrojan",
+    "desc": "Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)",
+    "last": "2025-05-12",
+    "tags": [
+      "helper",
+      "ui",
+      "binaryview"
     ],
     "src": [
       "python3"
