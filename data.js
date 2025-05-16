@@ -2726,7 +2726,7 @@ var tabledata = [
     "author": "fosdick.io",
     "author_url": "https://github.com/fosdickio",
     "desc": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
-    "last": "2025-04-11",
+    "last": "2025-05-13",
     "tags": [
       "core",
       "binaryview",
