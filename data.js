@@ -652,7 +652,7 @@ var tabledata = [
     "author": "psifertex",
     "author_url": "https://github.com/psifertex",
     "desc": "Enables Discord Rich Presence Integration for Binary Ninja",
-    "last": "2024-01-09",
+    "last": "2025-05-23",
     "tags": [
       "helper"
     ],
@@ -2679,7 +2679,7 @@ var tabledata = [
     "author": "OtterSec LLC",
     "author_url": "https://github.com/otter-sec",
     "desc": "An architecture/binaryview plugin for Solana EBPF.",
-    "last": "2025-03-06",
+    "last": "2025-05-18",
     "tags": [
       "architecture",
       "binaryview"
@@ -2811,6 +2811,71 @@ var tabledata = [
       "helper",
       "ui",
       "binaryview"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "bn-riscy-business",
+    "url": "https://github.com/eybisi/bn-riscy-business",
+    "author": "Ahmet Bilal Can",
+    "author_url": "https://github.com/eybisi",
+    "desc": "RISC-V architecture plugin to load encrypted Riscy-Business binaries.",
+    "last": "2025-05-21",
+    "tags": [
+      "architecture"
+    ],
+    "src": [
+      "python2",
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Copy as Deeplink",
+    "url": "https://github.com/pathtofile/binja_plugin_copy_deeplink",
+    "author": "pathtofile",
+    "author_url": "https://github.com/pathtofile",
+    "desc": "Creates a deeplink to the current address and adds it to the clipboard",
+    "last": "2025-05-18",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Moon Analyzer",
+    "url": "https://github.com/redthing1/binja_moonanalyzer",
+    "author": "redthing1",
+    "author_url": "https://github.com/redthing1",
+    "desc": "Analyze things on the Moon",
+    "last": "2025-05-21",
+    "tags": [
+      "core",
+      "binaryview",
+      "ui"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Minidump Loader",
+    "url": "https://github.com/redthing1/binja_minidump",
+    "author": "redthing1",
+    "author_url": "https://github.com/redthing1",
+    "desc": "Minidump Loader for Binary Ninja",
+    "last": "2025-05-09",
+    "tags": [
+      "core",
+      "binaryview",
+      "ui"
     ],
     "src": [
       "python3"
