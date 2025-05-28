@@ -2881,6 +2881,21 @@ var tabledata = [
       "python3"
     ],
     "origin": "community"
+  },
+  {
+    "name": "Obfuscation Analysis",
+    "url": "https://github.com/mrphrazer/obfuscation_analysis",
+    "author": "Tim Blazytko, Nicolò Altamura",
+    "author_url": "https://github.com/mrphrazer",
+    "desc": "Analyze and simplify obfuscated code",
+    "last": "2025-05-25",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
   }
 ];
 
