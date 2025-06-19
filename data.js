@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-04-06",
+    "last": "2025-06-11",
     "tags": [
       "helper"
     ],
@@ -758,12 +758,8 @@ var tabledata = [
     "author": "Saagar Jha",
     "author_url": "https://github.com/saagarjha",
     "desc": "Demangles Swift functions.",
-    "last": "2025-05-03",
+    "last": "2025-06-01",
     "tags": [
-      "core",
-      "ui",
-      "architecture",
-      "binaryview",
       "helper"
     ],
     "src": [
@@ -867,7 +863,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-04-18",
+    "last": "2025-05-31",
     "tags": [
       "sync"
     ],
@@ -2888,7 +2884,22 @@ var tabledata = [
     "author": "Tim Blazytko, Nicolò Altamura",
     "author_url": "https://github.com/mrphrazer",
     "desc": "Analyze and simplify obfuscated code",
-    "last": "2025-05-25",
+    "last": "2025-06-14",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Native Predicate Solver",
+    "url": "https://github.com/ScriptWare-Software/native-predicate-solver_loader",
+    "author": "ScriptWare Software",
+    "author_url": "https://github.com/ScriptWare-Software",
+    "desc": "Remove opaque predicates from binaries",
+    "last": "2025-06-11",
     "tags": [
       "helper"
     ],
