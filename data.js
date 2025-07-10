@@ -243,7 +243,7 @@ var tabledata = [
     "author": "Accenture (Martin Petran)",
     "author_url": "https://github.com/Accenture",
     "desc": "Architecture plugin for Renesas RH850/V850 family of processors.",
-    "last": "2025-03-31",
+    "last": "2025-06-21",
     "tags": [
       "architecture"
     ],
@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-06-11",
+    "last": "2025-07-02",
     "tags": [
       "helper"
     ],
@@ -1282,7 +1282,7 @@ var tabledata = [
     "author": "fkie-cad",
     "author_url": "https://github.com/fkie-cad",
     "desc": "Research Decompiler to generate a C-like function representation",
-    "last": "2025-04-01",
+    "last": "2025-07-01",
     "tags": [
       "helper",
       "ui"
@@ -2675,7 +2675,7 @@ var tabledata = [
     "author": "OtterSec LLC",
     "author_url": "https://github.com/otter-sec",
     "desc": "An architecture/binaryview plugin for Solana EBPF.",
-    "last": "2025-05-18",
+    "last": "2025-07-01",
     "tags": [
       "architecture",
       "binaryview"
@@ -2786,7 +2786,7 @@ var tabledata = [
     "author": "Damian Pfammatter and Sergio Paganoni",
     "author_url": "https://github.com/cyber-defence-campus",
     "desc": "Uncover interesting paths using static backward slicing",
-    "last": "2025-04-30",
+    "last": "2025-06-27",
     "tags": [
       "ui",
       "helper"
@@ -2899,9 +2899,24 @@ var tabledata = [
     "author": "ScriptWare Software",
     "author_url": "https://github.com/ScriptWare-Software",
     "desc": "Remove opaque predicates from binaries",
-    "last": "2025-06-11",
+    "last": "2025-06-29",
     "tags": [
       "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Simple YARA Generator",
+    "url": "https://github.com/1337-42/SimpleYaraBN",
+    "author": "Remco Sprooten",
+    "author_url": "https://github.com/1337-42",
+    "desc": "Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/ARM64, and MIPS architectures. Streamlines malware analysis and signature creation workflows.",
+    "last": "2025-07-01",
+    "tags": [
+      "ui"
     ],
     "src": [
       "python3"
