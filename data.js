@@ -2786,7 +2786,7 @@ var tabledata = [
     "author": "Damian Pfammatter and Sergio Paganoni",
     "author_url": "https://github.com/cyber-defence-campus",
     "desc": "Uncover interesting paths using static backward slicing",
-    "last": "2025-06-27",
+    "last": "2025-07-10",
     "tags": [
       "ui",
       "helper"
