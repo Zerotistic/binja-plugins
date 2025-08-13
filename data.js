@@ -243,7 +243,7 @@ var tabledata = [
     "author": "Accenture (Martin Petran)",
     "author_url": "https://github.com/Accenture",
     "desc": "Architecture plugin for Renesas RH850/V850 family of processors.",
-    "last": "2025-06-21",
+    "last": "2025-07-18",
     "tags": [
       "architecture"
     ],
@@ -288,7 +288,7 @@ var tabledata = [
     "author": "unknowntrojan",
     "author_url": "https://github.com/unknowntrojan",
     "desc": "SigMaker style plugin",
-    "last": "2025-07-02",
+    "last": "2025-07-25",
     "tags": [
       "helper"
     ],
@@ -863,7 +863,7 @@ var tabledata = [
     "author": "BinSync Team",
     "author_url": "https://github.com/binsync",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-05-31",
+    "last": "2025-08-08",
     "tags": [
       "sync"
     ],
@@ -954,8 +954,8 @@ var tabledata = [
     "url": "https://github.com/dipusone/golang_pclntab_parser",
     "author": "Jacopo Ferrigno",
     "author_url": "https://github.com/dipusone",
-    "desc": "BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information",
-    "last": "2023-01-05",
+    "desc": "BinaryNinja plugin to parse GoLang binaries and restore information, like function names, type information and reconstruct native types",
+    "last": "2025-07-29",
     "tags": [
       "ui"
     ],
@@ -1745,7 +1745,7 @@ var tabledata = [
     "author": "matteyeux",
     "author_url": "https://github.com/matteyeux",
     "desc": "Binary View for loading 32 bits and 64 bits Apple SEPROM",
-    "last": "2023-07-17",
+    "last": "2025-07-20",
     "tags": [
       "binaryview"
     ],
@@ -2642,7 +2642,7 @@ var tabledata = [
     "author": "Glenn Smith",
     "author_url": "https://github.com/CouleeApps",
     "desc": "Sidebar inspectors for debugging Binary Ninja itself",
-    "last": "2025-01-02",
+    "last": "2025-08-12",
     "tags": [
       "ui",
       "helper"
@@ -2786,7 +2786,7 @@ var tabledata = [
     "author": "Damian Pfammatter and Sergio Paganoni",
     "author_url": "https://github.com/cyber-defence-campus",
     "desc": "Uncover interesting paths using static backward slicing",
-    "last": "2025-07-10",
+    "last": "2025-07-25",
     "tags": [
       "ui",
       "helper"
@@ -2917,6 +2917,21 @@ var tabledata = [
     "last": "2025-07-01",
     "tags": [
       "ui"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Mixed Boolean-Arithmetic (MBA) Deobfuscator",
+    "url": "https://github.com/bliutech/mbased",
+    "author": "Benson Liu",
+    "author_url": "https://github.com/bliutech",
+    "desc": "Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.",
+    "last": "2025-08-08",
+    "tags": [
+      "helper"
     ],
     "src": [
       "python3"
