@@ -3,12 +3,11 @@ var tabledata = [
     "name": "Sidekick",
     "url": "https://github.com/vector35/sidekick-public",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Binary Ninja Sidekick",
-    "last": "2025-02-27",
+    "last": "2025-08-08",
     "tags": [
-      "ui",
-      "helper"
+      "helper",
+      "ui"
     ],
     "src": [
       "python3"
@@ -19,7 +18,6 @@ var tabledata = [
     "name": "COMpanion",
     "url": "https://github.com/Vector35/COMpanion",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.",
     "last": "2024-07-25",
     "tags": [
@@ -49,9 +47,8 @@ var tabledata = [
     "name": "UnPack.Me Automation",
     "url": "https://github.com/Vector35/unpacme",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Automatically analyze a binary via unpac.me",
-    "last": "2023-09-13",
+    "last": "2025-04-24",
     "tags": [
       "ui"
     ],
@@ -64,12 +61,11 @@ var tabledata = [
     "name": "Tantō",
     "url": "https://github.com/Vector35/tanto",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
-    "desc": "Tantō slices functions to help you can understand them faster.",
-    "last": "2025-03-11",
+    "desc": "Tantō slices programs to help you can understand them faster.",
+    "last": "2025-04-17",
     "tags": [
-      "ui",
-      "helper"
+      "helper",
+      "ui"
     ],
     "src": [
       "python3"
@@ -80,9 +76,8 @@ var tabledata = [
     "name": "6502 Architecture Plugin",
     "url": "https://github.com/Vector35/6502",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "An architecture plugin for 6502 and binary view for NES roms.",
-    "last": "2023-05-30",
+    "last": "2025-05-30",
     "tags": [
       "architecture"
     ],
@@ -96,9 +91,8 @@ var tabledata = [
     "name": "Kaitai UI Plugin",
     "url": "https://github.com/Vector35/kaitai",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Browse hex with a tree view populated from Kaitai Struct formats.",
-    "last": "2024-10-31",
+    "last": "2025-04-18",
     "tags": [
       "ui"
     ],
@@ -111,9 +105,8 @@ var tabledata = [
     "name": "Snippet UI Plugin",
     "url": "https://github.com/Vector35/snippets",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features",
-    "last": "2024-08-30",
+    "last": "2025-07-11",
     "tags": [
       "ui"
     ],
@@ -127,13 +120,13 @@ var tabledata = [
     "name": "Opaque Predicate Patcher",
     "url": "https://github.com/Vector35/OpaquePredicatePatcher",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Automatically patch opaque predicates",
     "last": "2024-11-19",
     "tags": [
       "helper"
     ],
     "src": [
+      "python2",
       "python3"
     ],
     "origin": "community"
@@ -142,15 +135,14 @@ var tabledata = [
     "name": "Sample Plugin",
     "url": "https://github.com/Vector35/sample_plugin",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "This is a short description meant to fit on one line.",
-    "last": "2021-11-22",
+    "last": "2024-06-07",
     "tags": [
-      "core",
-      "ui",
       "architecture",
       "binaryview",
-      "helper"
+      "core",
+      "helper",
+      "ui"
     ],
     "src": [
       "python3"
@@ -161,9 +153,8 @@ var tabledata = [
     "name": "Z80 Architecture Plugin",
     "url": "https://github.com/Vector35/Z80",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.",
-    "last": "2023-09-06",
+    "last": "2024-06-07",
     "tags": [
       "architecture"
     ],
@@ -177,13 +168,12 @@ var tabledata = [
     "name": "Signature Kit Plugin",
     "url": "https://github.com/Vector35/sigkit",
     "author": "Vector 35 Inc",
-    "author_url": "https://github.com/Vector35",
     "desc": "Python tools for working with Signature Libraries",
     "last": "2024-09-09",
     "tags": [
+      "core",
       "helper",
-      "ui",
-      "core"
+      "ui"
     ],
     "src": [
       "python2",
@@ -2931,6 +2921,35 @@ var tabledata = [
     "desc": "Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.",
     "last": "2025-08-08",
     "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "SVD Mapper",
+    "url": "https://github.com/Vector35/svdmap",
+    "author": "Vector 35 Inc",
+    "desc": "SVD Mapper is a plugin for Binary Ninja that helps automate the process of mapping in SVD peripherals",
+    "last": "2024-11-14",
+    "tags": [
+      "helper"
+    ],
+    "src": [
+      "python3"
+    ],
+    "origin": "community"
+  },
+  {
+    "name": "Blob Extractor",
+    "url": "https://github.com/Vector35/blob_extractor/",
+    "author": "Vector 35 Inc",
+    "desc": "Plugin for extracting files from container formats",
+    "last": "2024-11-19",
+    "tags": [
+      "binaryview",
       "helper"
     ],
     "src": [
