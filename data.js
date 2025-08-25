@@ -815,7 +815,7 @@ var tabledata = [
     "url": "https://github.com/binsync/binsync",
     "author": "BinSync Team",
     "desc": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
-    "last": "2025-08-21",
+    "last": "2025-08-22",
     "tags": [
       "sync"
     ],
