@@ -1,5 +1,9 @@
 # Interactive Binja Plugin List
 
+## This repository is archived because Vector35 made their own https://extensions.binary.ninja/ !!
+
+
+
 *Note: this is heavily inspired by [ida-plugins](https://github.com/vmallet/ida-plugins) from vmallet*
 
 This is a comprehensive list of plugins for Binary Ninja that is more interactive, that is, it can be sorted and filtered to help with finding plugins of interest. It also has extra metadata like the language the plugin is written in and an attempt at putting plugins into categories.
